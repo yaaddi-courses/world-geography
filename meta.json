@@ -4,7 +4,7 @@
   "description": "Learn the world: continents and oceans, how to read a map, every UN member country with its capital and flag, and the planet's great rivers, lakes, mountains, deserts and seas.",
   "image": "cover.png",
   "file": "world-geography.zip",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "tags": [
     "geography",
     "countries",
@@ -18,6 +18,16 @@
       "version": "1.0.0",
       "date": "2026-10-02",
       "notes": "Initial release - 23 decks, 77 packs, 772 cards."
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-10-29",
+      "notes": "Removes the Wikipedia links from glossary terms that have a Learn more article; the article is now the single place to read more."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-10-29",
+      "notes": "Rewrites the Learn more articles in a warmer, teacher-to-student voice; no change to the content or the glossary."
     }
   ],
   "toc": [

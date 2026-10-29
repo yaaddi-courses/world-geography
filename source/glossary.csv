@@ -1,19 +1,19 @@
 term,definition,link,introduced_by_card_id,article
-Continent,"One of Earth's seven large landmasses: Africa, Antarctica, Asia, Europe, North America, Oceania and South America.",https://en.wikipedia.org/wiki/Continent,2,continents-and-oceans#continent
-Ocean,One of the five huge bodies of salt water that cover most of Earth's surface.,https://en.wikipedia.org/wiki/Ocean,18,continents-and-oceans#ocean
-Equator,The imaginary line around the middle of Earth that splits it into the Northern and Southern Hemispheres.,https://en.wikipedia.org/wiki/Equator,30,latitude-and-longitude#equator
-Hemisphere,"Half of Earth, such as the northern half or the western half.",https://en.wikipedia.org/wiki/Hemispheres_of_Earth,30,latitude-and-longitude#hemisphere
-Prime meridian,"The imaginary line that runs from pole to pole through Greenwich, England, and divides east from west.",https://en.wikipedia.org/wiki/Prime_meridian,36,latitude-and-longitude#prime-meridian
-Latitude,"How far north or south a place is from the Equator, measured in degrees.",https://en.wikipedia.org/wiki/Latitude,42,latitude-and-longitude#latitude
-Longitude,"How far east or west a place is from the Prime Meridian, measured in degrees.",https://en.wikipedia.org/wiki/Longitude,42,latitude-and-longitude#longitude
-Landlocked country,"A country with no coastline on an ocean or open sea, like Switzerland or Mongolia.",https://en.wikipedia.org/wiki/Landlocked_country,48,land-and-water-shapes#landlocked-country
-Peninsula,"A piece of land almost surrounded by water but joined to a larger landmass, like Italy.",https://en.wikipedia.org/wiki/Peninsula,54,land-and-water-shapes#peninsula
-Archipelago,"A group or chain of islands, such as Japan or the Philippines.",https://en.wikipedia.org/wiki/Archipelago,54,land-and-water-shapes#archipelago
-Strait,"A narrow channel of water connecting two larger bodies of water, such as the Strait of Gibraltar.",https://en.wikipedia.org/wiki/Strait,60,land-and-water-shapes#strait
-Capital city,The city where a country's government is based.,https://en.wikipedia.org/wiki/Capital_city,60,capitals-and-country-names#capital-city
-DR,"DR is short for Democratic Republic, as in DR Congo.",https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo,556,capitals-and-country-names#dr
-Continents,"One of Earth's seven large landmasses: Africa, Antarctica, Asia, Europe, North America, Oceania and South America.",https://en.wikipedia.org/wiki/Continent,2,continents-and-oceans#continent
-Oceans,One of the five huge bodies of salt water that cover most of Earth's surface.,https://en.wikipedia.org/wiki/Ocean,18,continents-and-oceans#ocean
-Hemispheres,"Half of Earth, such as the northern half or the western half.",https://en.wikipedia.org/wiki/Hemispheres_of_Earth,30,latitude-and-longitude#hemisphere
-Landlocked countries,"A country with no coastline on an ocean or open sea, like Switzerland or Mongolia.",https://en.wikipedia.org/wiki/Landlocked_country,48,land-and-water-shapes#landlocked-country
-Straits,"A narrow channel of water connecting two larger bodies of water, such as the Strait of Gibraltar.",https://en.wikipedia.org/wiki/Strait,60,land-and-water-shapes#strait
+Continent,"One of Earth's seven large landmasses: Africa, Antarctica, Asia, Europe, North America, Oceania and South America.",,2,continents-and-oceans#continent
+Ocean,One of the five huge bodies of salt water that cover most of Earth's surface.,,18,continents-and-oceans#ocean
+Equator,The imaginary line around the middle of Earth that splits it into the Northern and Southern Hemispheres.,,30,latitude-and-longitude#equator
+Hemisphere,"Half of Earth, such as the northern half or the western half.",,30,latitude-and-longitude#hemisphere
+Prime meridian,"The imaginary line that runs from pole to pole through Greenwich, England, and divides east from west.",,36,latitude-and-longitude#prime-meridian
+Latitude,"How far north or south a place is from the Equator, measured in degrees.",,42,latitude-and-longitude#latitude
+Longitude,"How far east or west a place is from the Prime Meridian, measured in degrees.",,42,latitude-and-longitude#longitude
+Landlocked country,"A country with no coastline on an ocean or open sea, like Switzerland or Mongolia.",,48,land-and-water-shapes#landlocked-country
+Peninsula,"A piece of land almost surrounded by water but joined to a larger landmass, like Italy.",,54,land-and-water-shapes#peninsula
+Archipelago,"A group or chain of islands, such as Japan or the Philippines.",,54,land-and-water-shapes#archipelago
+Strait,"A narrow channel of water connecting two larger bodies of water, such as the Strait of Gibraltar.",,60,land-and-water-shapes#strait
+Capital city,The city where a country's government is based.,,60,capitals-and-country-names#capital-city
+DR,"DR is short for Democratic Republic, as in DR Congo.",,556,capitals-and-country-names#dr
+Continents,"One of Earth's seven large landmasses: Africa, Antarctica, Asia, Europe, North America, Oceania and South America.",,2,continents-and-oceans#continent
+Oceans,One of the five huge bodies of salt water that cover most of Earth's surface.,,18,continents-and-oceans#ocean
+Hemispheres,"Half of Earth, such as the northern half or the western half.",,30,latitude-and-longitude#hemisphere
+Landlocked countries,"A country with no coastline on an ocean or open sea, like Switzerland or Mongolia.",,48,land-and-water-shapes#landlocked-country
+Straits,"A narrow channel of water connecting two larger bodies of water, such as the Strait of Gibraltar.",,60,land-and-water-shapes#strait
