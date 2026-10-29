@@ -1,0 +1,48 @@
+{
+  "id": "8b6c1f4d0a95",
+  "title": "World Geography",
+  "description": "Learn the world: continents and oceans, how to read a map, every UN member country with its capital and flag, and the planet's great rivers, lakes, mountains, deserts and seas.",
+  "image": "cover.png",
+  "file": "world-geography.zip",
+  "version": "1.0.0",
+  "tags": [
+    "geography",
+    "countries",
+    "capitals",
+    "flags",
+    "maps",
+    "general-knowledge"
+  ],
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-10-02",
+      "notes": "Initial release - 23 decks, 77 packs, 772 cards."
+    }
+  ],
+  "toc": [
+    "Continents and Oceans",
+    "Reading a Globe",
+    "Western Europe",
+    "Northern Europe",
+    "Southern Europe",
+    "Eastern Europe",
+    "North America",
+    "Central America",
+    "The Caribbean",
+    "South America",
+    "East Asia",
+    "Southeast Asia",
+    "South and Central Asia",
+    "West Asia",
+    "North Africa",
+    "West Africa",
+    "East Africa",
+    "Central Africa",
+    "Southern Africa",
+    "Oceania",
+    "Seas, Straits and Canals",
+    "Rivers and Lakes",
+    "Mountains, Deserts and Islands"
+  ]
+}

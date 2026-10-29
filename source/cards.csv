@@ -1,0 +1,827 @@
+id,unit_id,type,role,related_main_id,prompt,options,correct_index,image,audio,explanation
+1,1,true_false,preview,2,Earth's land is split into big landmasses.,,true,,,True. We count seven continents.
+2,1,multiple_choice,main,,How many continents are there?,Seven|Five|Nine,0,,,"This course counts seven continents: Africa, Antarctica, Asia, Europe, North America, Oceania and South America."
+3,1,multiple_choice,exercise,2,Kenya is on which continent?,Asia|Africa|Europe,1,,,Kenya is in East Africa.
+4,1,true_false,exercise,2,The Sahara is in Africa.,,true,,,True. It covers much of North Africa.
+5,1,multiple_choice,exercise,2,Which continent is mostly ice?,Asia|Oceania|Antarctica,2,,,Antarctica is covered by a huge ice sheet.
+6,1,true_false,exercise,2,Antarctica has a native population.,,false,,,"False. Only researchers live there, usually for a season."
+7,1,multiple_choice,exercise,2,Which is the largest continent?,Asia|Africa|Europe,0,,,Asia is the largest by area and population.
+8,1,true_false,exercise,2,Japan is in Asia.,,true,,,True. Japan is an island country in East Asia.
+9,1,multiple_choice,exercise,2,France is on which continent?,Asia|Europe|Africa,1,,,France is in Western Europe.
+10,1,select_blank,exercise,2,Spain is in ___.,Asia|Africa|Europe,2,,,Spain is in Southern Europe.
+11,1,multiple_choice,exercise,2,Canada is on which continent?,North America|South America|Europe,0,,,Canada is in northern North America.
+12,1,true_false,exercise,2,Mexico is in South America.,,false,,,False. Mexico is in North America.
+13,1,multiple_choice,exercise,2,Australia belongs to ___.,Asia|Oceania|Africa,1,,,Australia is the largest country in Oceania.
+14,1,true_false,exercise,2,New Zealand is in Oceania.,,true,,,True. It lies in the southwest Pacific.
+15,1,multiple_choice,exercise,2,Brazil is on which continent?,North America|Africa|South America,2,,,Brazil is the largest country in South America.
+16,1,select_blank,exercise,2,The Amazon flows through ___.,South America|Africa|Asia,0,,,The Amazon River basin is in South America.
+17,1,true_false,preview,18,Water covers most of Earth.,,true,,,"True. The Pacific Ocean, Atlantic Ocean, Indian Ocean, Southern Ocean and Arctic Ocean."
+18,1,multiple_choice,main,,Which is the largest ocean?,Atlantic|Pacific|Indian,1,,,"The Pacific is the largest and deepest ocean, bigger than all land combined."
+19,1,multiple_choice,exercise,18,Which lies between the Americas and Europe?,Pacific|Indian|Atlantic,2,,,The Atlantic separates the Americas from Europe and Africa.
+20,1,true_false,exercise,18,The Indian Ocean touches Africa and Asia.,,true,,,True. It also touches Australia.
+21,1,multiple_choice,exercise,18,Which ocean surrounds Antarctica?,Southern|Arctic|Indian,0,,,The Southern Ocean rings Antarctica.
+22,1,true_false,exercise,18,The Arctic Ocean is the smallest.,,true,,,True. It is also the shallowest.
+23,1,multiple_choice,exercise,18,Which is around the North Pole?,Southern|Arctic|Atlantic,1,,,The Arctic Ocean surrounds the North Pole.
+24,1,select_blank,exercise,18,The ___ Ocean is the largest.,Indian|Arctic|Pacific,2,,,The Pacific covers about a third of Earth.
+25,1,true_false,exercise,18,The Atlantic touches Asia.,,false,,,False. The Atlantic lies between the Americas and Europe and Africa.
+26,1,multiple_choice,exercise,18,Which ocean is named for a country?,Indian|Pacific|Arctic,0,,,The Indian Ocean is named after India.
+27,1,true_false,exercise,18,Earth has five named ocean basins.,,true,,,"True. Pacific, Atlantic, Indian, Southern and Arctic."
+28,1,multiple_choice,exercise,18,Which ocean is between Africa and Australia?,Arctic|Indian|Atlantic,1,,,The Indian Ocean spans that gap.
+29,2,true_false,preview,30,An invisible line circles Earth's middle.,,true,,,True. It is the Equator.
+30,2,multiple_choice,main,,What does the Equator divide?,East-West|Land-sea|North-South,2,,,The Equator is the line around Earth's middle. It splits Earth into the Northern and Southern Hemispheres.
+31,2,select_blank,exercise,30,The Equator is at ___ degrees.,0|90|180,0,,,The Equator is 0 degrees.
+32,2,true_false,exercise,30,Ecuador is named for the Equator.,,true,,,True. Ecuador means equator in Spanish.
+33,2,multiple_choice,exercise,30,Which hemisphere is north of it?,Southern|Northern|Eastern,1,,,North of the Equator is the Northern Hemisphere.
+34,2,true_false,exercise,30,The Equator splits east from west.,,false,,,False. It splits north from south.
+35,2,true_false,preview,36,"A line runs through Greenwich, England.",,true,,,True. It is the Prime Meridian.
+36,2,multiple_choice,main,,What does the Prime Meridian divide?,North-South|Land-sea|East-West,2,,,The Prime Meridian runs from pole to pole through Greenwich and divides the Eastern Hemisphere from the Western Hemisphere.
+37,2,select_blank,exercise,36,The Prime Meridian passes through ___.,Greenwich|Paris|Cairo,0,,,"It passes through Greenwich, near London."
+38,2,true_false,exercise,36,The Prime Meridian is a zero line.,,true,,,"True. It is 0 degrees, where east-west measurement starts."
+39,2,multiple_choice,exercise,36,Which hemisphere is west of it?,Eastern|Western|Northern,1,,,West of the line is the Western Hemisphere.
+40,2,true_false,exercise,36,It runs east to west.,,false,,,False. It runs from pole to pole.
+41,2,true_false,preview,42,Two numbers can locate any place.,,true,,,True. Latitude and longitude.
+42,2,multiple_choice,main,,What does latitude measure?,East-west position|Height|North-south position,2,,,Latitude measures how far north or south of the Equator you are; longitude measures how far east or west of the Prime Meridian.
+43,2,multiple_choice,exercise,42,What does longitude measure?,East-west position|North-south position|Depth,0,,,Longitude measures east or west of the Prime Meridian.
+44,2,true_false,exercise,42,Latitude lines run east to west.,,true,,,True. They are parallel circles around Earth.
+45,2,select_blank,exercise,42,The North Pole is at 90 degrees ___.,east|north|west,1,,,The poles are at 90 degrees latitude.
+46,2,true_false,exercise,42,Longitude is measured from the Equator.,,false,,,False. Latitude is measured from the Equator.
+47,2,true_false,preview,48,Some countries have no sea access.,,true,,,True. They are landlocked.
+48,2,multiple_choice,main,,Which country is landlocked?,Japan|Portugal|Switzerland,2,,,A landlocked country has no coastline on an ocean or open sea. Switzerland is surrounded by other countries.
+49,2,true_false,exercise,48,Mongolia has a coastline.,,false,,,False. Mongolia is landlocked.
+50,2,multiple_choice,exercise,48,Which is landlocked?,Bolivia|Chile|Peru,0,,,Bolivia has no sea coast.
+51,2,select_blank,exercise,48,Landlocked countries lack a ___.,capital|coastline|river,1,,,They have no sea coast.
+52,2,true_false,exercise,48,Chad has no sea coast.,,true,,,True. Chad is landlocked in Central Africa.
+53,2,true_false,preview,54,Land can reach into the sea.,,true,,,True. That makes a peninsula.
+54,2,multiple_choice,main,,Which is a peninsula?,Iceland|Cuba|Italy,2,,,A peninsula is land almost surrounded by water but joined to a larger landmass. Italy is one. An archipelago is a group of islands.
+55,2,multiple_choice,exercise,54,Which is an archipelago?,Japan|Italy|Mongolia,0,,,Japan is a chain of islands.
+56,2,true_false,exercise,54,The Philippines is an archipelago.,,true,,,True. It has thousands of islands.
+57,2,select_blank,exercise,54,An archipelago is a group of ___.,lakes|islands|peaks,1,,,It is a group or chain of islands.
+58,2,true_false,exercise,54,A peninsula is surrounded entirely by water.,,false,,,False. One side joins a larger landmass.
+59,2,true_false,preview,60,Narrow waterways connect larger seas.,,true,,,True. They are straits.
+60,2,multiple_choice,main,,What is a strait?,Wide ocean|Mountain pass|Narrow channel,2,,,A strait is a narrow channel of water connecting two larger bodies of water. A capital city is where a country's government is based.
+61,2,true_false,exercise,60,Gibraltar is a famous strait.,,true,,,True. The Strait of Gibraltar links the Atlantic and the Mediterranean.
+62,2,multiple_choice,exercise,60,What is a capital city?,Government seat|Biggest port|Oldest town,0,,,It is where the national government is based.
+63,2,select_blank,exercise,60,A ___ city is the seat of government.,port|capital|border,1,,,Capitals host national governments.
+64,2,true_false,exercise,60,A capital is always the largest city.,,false,,,"False. For example, Canberra is Australia's capital but not its largest city."
+65,2,true_false,preview,66,Map skills are the base of geography.,,true,,,True. Review the key ideas.
+66,2,multiple_choice,main,,Which line splits north from south?,Prime Meridian|Strait|Equator,2,,,The Equator splits Earth into northern and southern halves.
+67,2,multiple_choice,exercise,66,Which ocean is the largest?,Pacific|Atlantic|Arctic,0,,,The Pacific is the largest ocean.
+68,2,true_false,exercise,66,Latitude measures east-west position.,,false,,,False. Latitude measures north-south position.
+69,2,select_blank,exercise,66,The Prime Meridian passes through ___.,Madrid|Greenwich|Dubai,1,,,"It runs through Greenwich, England."
+70,2,multiple_choice,exercise,66,Which is a continent?,Greenland|Japan|Oceania,2,,,Oceania is one of the seven continents.
+71,2,true_false,exercise,66,Switzerland is landlocked.,,true,,,True. It has no sea coast.
+72,2,multiple_choice,exercise,66,Which is an archipelago?,Philippines|Italy|Chad,0,,,The Philippines is a group of islands.
+73,2,match_pairs,exercise,66,"Match each term, round 1.",Continent↔Large landmass|Ocean↔Huge saltwater body|Equator↔Zero latitude line|Hemisphere↔Half of Earth,,,,Each term goes with its short meaning.
+74,2,match_pairs,exercise,66,"Match each term, round 2.",Prime meridian↔Zero longitude line|Latitude↔North-south position|Longitude↔East-west position,,,,Each term goes with its short meaning.
+75,3,true_false,preview,76,France is in Western Europe.,,true,,,"True. This pack also covers Germany, Belgium."
+76,3,multiple_choice,main,,Whose flag is this?,Luxembourg|France|Netherlands,1,flags/fr.png,,"This is the flag of France; its capital is Paris. Also here: Netherlands, Luxembourg."
+77,3,multiple_choice,exercise,76,Capital of France?,Amsterdam|Brussels|Paris,2,,,Paris is the capital of France.
+78,3,true_false,exercise,76,Luxembourg City is the capital of France.,,false,,,False. The capital of France is Paris.
+79,3,multiple_choice,exercise,76,Capital of Germany?,Berlin|Brussels|Paris,0,,,Berlin is the capital of Germany.
+80,3,multiple_choice,exercise,76,Which country's flag?,Luxembourg|Germany|Belgium,1,flags/de.png,,This is the flag of Germany; its capital is Berlin.
+81,3,multiple_choice,exercise,76,Capital of Belgium?,Berlin|Luxembourg City|Brussels,2,,,Brussels is the capital of Belgium.
+82,3,multiple_choice,exercise,76,Name this flag.,Belgium|Luxembourg|Germany,0,flags/be.png,,This is the flag of Belgium; its capital is Brussels.
+83,3,multiple_choice,exercise,76,Capital of the Netherlands?,Paris|Amsterdam|Luxembourg City,1,,,Amsterdam is the capital; the government sits in The Hague.
+84,3,multiple_choice,exercise,76,This flag is from?,France|Belgium|Netherlands,2,flags/nl.png,,This is the flag of Netherlands.
+85,3,multiple_choice,exercise,76,Capital of Luxembourg?,Luxembourg City|Paris|Berlin,0,,,Luxembourg City is the capital of Luxembourg.
+86,3,multiple_choice,exercise,76,Flag of which country?,Belgium|Luxembourg|France,1,flags/lu.png,,This is the flag of Luxembourg; its capital is Luxembourg City.
+87,3,match_pairs,exercise,76,Match each country to its capital.,France↔Paris|Germany↔Berlin|Belgium↔Brussels,,,,Each capital belongs to the country matched with it.
+88,3,true_false,preview,89,Austria is in Western Europe.,,true,,,True. This pack also covers Switzerland.
+89,3,multiple_choice,main,,Whose flag is this?,Liechtenstein|Switzerland|Austria,2,flags/at.png,,"This is the flag of Austria; its capital is Vienna. Also here: Liechtenstein, Monaco."
+90,3,multiple_choice,exercise,89,Capital of Austria?,Vienna|Luxembourg City|Brussels,0,,,Vienna is the capital of Austria.
+91,3,true_false,exercise,89,Berlin is the capital of Austria.,,false,,,False. The capital of Austria is Vienna.
+92,3,multiple_choice,exercise,89,Capital of Switzerland?,Luxembourg City|Bern|Brussels,1,,,Bern is the capital of Switzerland.
+93,3,multiple_choice,exercise,89,Which country's flag?,Liechtenstein|Monaco|Switzerland,2,flags/ch.png,,This is the flag of Switzerland; its capital is Bern.
+94,3,multiple_choice,exercise,89,Capital of Liechtenstein?,Vaduz|Amsterdam|Brussels,0,,,Vaduz is the capital of Liechtenstein.
+95,3,multiple_choice,exercise,89,Name this flag.,Switzerland|Liechtenstein|Germany,1,flags/li.png,,This is the flag of Liechtenstein; its capital is Vaduz.
+96,3,select_blank,exercise,89,Monaco is a ___.,peninsula|archipelago|city-state,2,,,Monaco is a city-state: a city that is also an independent country.
+97,3,multiple_choice,exercise,89,This flag is from?,Monaco|Germany|Switzerland,0,flags/mc.png,,This is the flag of Monaco.
+98,4,true_false,preview,99,United Kingdom is in Northern Europe.,,true,,,"True. This pack also covers Ireland, Iceland."
+99,4,multiple_choice,main,,Whose flag is this?,Austria|United Kingdom|Liechtenstein,1,flags/gb.png,,"This is the flag of United Kingdom; its capital is London. Also here: Norway, Sweden."
+100,4,multiple_choice,exercise,99,Capital of United Kingdom?,Paris|Brussels|London,2,,,London is the capital of United Kingdom.
+101,4,true_false,exercise,99,Vienna is the capital of United Kingdom.,,false,,,False. The capital of United Kingdom is London.
+102,4,multiple_choice,exercise,99,Capital of Ireland?,Dublin|Oslo|Monaco,0,,,Dublin is the capital of Ireland.
+103,4,multiple_choice,exercise,99,Which country's flag?,Monaco|Ireland|Sweden,1,flags/ie.png,,This is the flag of Ireland; its capital is Dublin.
+104,4,multiple_choice,exercise,99,Capital of Iceland?,Vaduz|Berlin|Reykjavik,2,,,Reykjavik is the capital of Iceland.
+105,4,multiple_choice,exercise,99,Name this flag.,Iceland|Switzerland|Ireland,0,flags/is.png,,This is the flag of Iceland; its capital is Reykjavik.
+106,4,multiple_choice,exercise,99,Capital of Norway?,Dublin|Oslo|Paris,1,,,Oslo is the capital of Norway.
+107,4,multiple_choice,exercise,99,This flag is from?,Monaco|Sweden|Norway,2,flags/no.png,,This is the flag of Norway; its capital is Oslo.
+108,4,multiple_choice,exercise,99,Capital of Sweden?,Stockholm|Vienna|Berlin,0,,,Stockholm is the capital of Sweden.
+109,4,multiple_choice,exercise,99,Flag of which country?,Belgium|Sweden|Monaco,1,flags/se.png,,This is the flag of Sweden; its capital is Stockholm.
+110,4,match_pairs,exercise,99,Match each country to its capital.,United Kingdom↔London|Ireland↔Dublin|Iceland↔Reykjavik|Norway↔Oslo,,,,Each capital belongs to the country matched with it.
+111,4,true_false,preview,112,Finland is in Northern Europe.,,true,,,"True. This pack also covers Denmark, Estonia."
+112,4,multiple_choice,main,,Whose flag is this?,Netherlands|Norway|Finland,2,flags/fi.png,,"This is the flag of Finland; its capital is Helsinki. Also here: Latvia, Lithuania."
+113,4,multiple_choice,exercise,112,Capital of Finland?,Helsinki|Berlin|Amsterdam,0,,,Helsinki is the capital of Finland.
+114,4,true_false,exercise,112,Vaduz is the capital of Finland.,,false,,,False. The capital of Finland is Helsinki.
+115,4,multiple_choice,exercise,112,Capital of Denmark?,Helsinki|Copenhagen|Riga,1,,,Copenhagen is the capital of Denmark.
+116,4,multiple_choice,exercise,112,Which country's flag?,Liechtenstein|Estonia|Denmark,2,flags/dk.png,,This is the flag of Denmark; its capital is Copenhagen.
+117,4,multiple_choice,exercise,112,Capital of Estonia?,Tallinn|Vienna|Bern,0,,,Tallinn is the capital of Estonia.
+118,4,multiple_choice,exercise,112,Name this flag.,Finland|Estonia|Sweden,1,flags/ee.png,,This is the flag of Estonia; its capital is Tallinn.
+119,4,multiple_choice,exercise,112,Capital of Latvia?,Stockholm|Monaco|Riga,2,,,Riga is the capital of Latvia.
+120,4,multiple_choice,exercise,112,This flag is from?,Latvia|France|Monaco,0,flags/lv.png,,This is the flag of Latvia; its capital is Riga.
+121,4,multiple_choice,exercise,112,Capital of Lithuania?,Copenhagen|Vilnius|Luxembourg City,1,,,Vilnius is the capital of Lithuania.
+122,4,multiple_choice,exercise,112,Flag of which country?,Ireland|Finland|Lithuania,2,flags/lt.png,,This is the flag of Lithuania; its capital is Vilnius.
+123,4,match_pairs,exercise,112,Match each country to its capital.,Finland↔Helsinki|Denmark↔Copenhagen|Estonia↔Tallinn|Latvia↔Riga,,,,Each capital belongs to the country matched with it.
+124,5,true_false,preview,125,Spain is in Southern Europe.,,true,,,True. This pack also covers Portugal.
+125,5,multiple_choice,main,,Whose flag is this?,Spain|Belgium|United Kingdom,0,flags/es.png,,"This is the flag of Spain; its capital is Madrid. Also here: Italy, Malta."
+126,5,multiple_choice,exercise,125,Capital of Spain?,Tallinn|Madrid|Dublin,1,,,Madrid is the capital of Spain.
+127,5,true_false,exercise,125,Tallinn is the capital of Spain.,,false,,,False. The capital of Spain is Madrid.
+128,5,multiple_choice,exercise,125,Capital of Portugal?,Madrid|Stockholm|Lisbon,2,,,Lisbon is the capital of Portugal.
+129,5,multiple_choice,exercise,125,Which country's flag?,Portugal|Norway|Iceland,0,flags/pt.png,,This is the flag of Portugal; its capital is Lisbon.
+130,5,multiple_choice,exercise,125,Capital of Italy?,Riga|Rome|Monaco,1,,,Rome is the capital of Italy.
+131,5,multiple_choice,exercise,125,Name this flag.,Malta|Portugal|Italy,2,flags/it.png,,This is the flag of Italy; its capital is Rome.
+132,5,multiple_choice,exercise,125,Capital of Malta?,Valletta|Vienna|Brussels,0,,,Valletta is the capital of Malta.
+133,5,multiple_choice,exercise,125,This flag is from?,Ireland|Malta|Latvia,1,flags/mt.png,,This is the flag of Malta; its capital is Valletta.
+134,5,match_pairs,exercise,125,Match each country to its capital.,Spain↔Madrid|Portugal↔Lisbon|Italy↔Rome|Malta↔Valletta,,,,Each capital belongs to the country matched with it.
+135,5,true_false,preview,136,Andorra is in Southern Europe.,,true,,,True. This pack also covers San Marino.
+136,5,multiple_choice,main,,Whose flag is this?,France|Estonia|Andorra,2,flags/ad.png,,"This is the flag of Andorra; its capital is Andorra la Vella. Also here: Greece, Albania."
+137,5,multiple_choice,exercise,136,Capital of Andorra?,Andorra la Vella|Athens|Rome,0,,,Andorra la Vella is the capital of Andorra.
+138,5,true_false,exercise,136,Helsinki is the capital of Andorra.,,false,,,False. The capital of Andorra is Andorra la Vella.
+139,5,multiple_choice,exercise,136,Capital of San Marino?,Vaduz|San Marino|Rome,1,,,San Marino is the capital of San Marino.
+140,5,multiple_choice,exercise,136,Which country's flag?,Spain|France|San Marino,2,flags/sm.png,,This is the flag of San Marino; its capital is San Marino.
+141,5,multiple_choice,exercise,136,Capital of Greece?,Athens|Tirana|London,0,,,Athens is the capital of Greece.
+142,5,multiple_choice,exercise,136,Name this flag.,Luxembourg|Greece|Germany,1,flags/gr.png,,This is the flag of Greece; its capital is Athens.
+143,5,multiple_choice,exercise,136,Capital of Albania?,Paris|Berlin|Tirana,2,,,Tirana is the capital of Albania.
+144,5,multiple_choice,exercise,136,This flag is from?,Albania|Sweden|Switzerland,0,flags/al.png,,This is the flag of Albania; its capital is Tirana.
+145,5,match_pairs,exercise,136,Match each country to its capital.,Greece↔Athens|Albania↔Tirana|France↔Paris|Germany↔Berlin,,,,Each capital belongs to the country matched with it.
+146,5,true_false,preview,147,North Macedonia is in Southern Europe.,,true,,,True. This pack also covers Montenegro.
+147,5,multiple_choice,main,,Whose flag is this?,Ireland|North Macedonia|Germany,1,flags/mk.png,,This is the flag of North Macedonia; its capital is Skopje. Also here: Serbia.
+148,5,multiple_choice,exercise,147,Capital of North Macedonia?,Helsinki|Berlin|Skopje,2,,,Skopje is the capital of North Macedonia.
+149,5,true_false,exercise,147,San Marino is the capital of North Macedonia.,,false,,,False. The capital of North Macedonia is Skopje.
+150,5,multiple_choice,exercise,147,Capital of Montenegro?,Podgorica|San Marino|Lisbon,0,,,Podgorica is the capital of Montenegro.
+151,5,multiple_choice,exercise,147,Which country's flag?,Liechtenstein|Montenegro|Iceland,1,flags/me.png,,This is the flag of Montenegro; its capital is Podgorica.
+152,5,multiple_choice,exercise,147,Capital of Serbia?,Stockholm|London|Belgrade,2,,,Belgrade is the capital of Serbia.
+153,5,multiple_choice,exercise,147,Name this flag.,Serbia|Andorra|San Marino,0,flags/rs.png,,This is the flag of Serbia; its capital is Belgrade.
+154,5,true_false,preview,155,Croatia is in Southern Europe.,,true,,,True. This pack also covers Bosnia and Herzegovina.
+155,5,multiple_choice,main,,Whose flag is this?,Finland|Croatia|Italy,1,flags/hr.png,,This is the flag of Croatia; its capital is Zagreb. Also here: Slovenia.
+156,5,multiple_choice,exercise,155,Capital of Croatia?,Rome|Bern|Zagreb,2,,,Zagreb is the capital of Croatia.
+157,5,true_false,exercise,155,Stockholm is the capital of Croatia.,,false,,,False. The capital of Croatia is Zagreb.
+158,5,multiple_choice,exercise,155,Capital of Bosnia and Herzegovina?,Sarajevo|Stockholm|Dublin,0,,,Sarajevo is the capital of Bosnia and Herzegovina.
+159,5,multiple_choice,exercise,155,Which country's flag?,Spain|Bosnia and Herzegovina|Andorra,1,flags/ba.png,,This is the flag of Bosnia and Herzegovina; its capital is Sarajevo.
+160,5,multiple_choice,exercise,155,Capital of Slovenia?,San Marino|Luxembourg City|Ljubljana,2,,,Ljubljana is the capital of Slovenia.
+161,5,multiple_choice,exercise,155,Name this flag.,Slovenia|Lithuania|Portugal,0,flags/si.png,,This is the flag of Slovenia; its capital is Ljubljana.
+162,6,true_false,preview,163,Poland is in Eastern Europe.,,true,,,"True. This pack also covers Czechia, Slovakia."
+163,6,multiple_choice,main,,Whose flag is this?,Czechia|Poland|France,1,flags/pl.png,,"This is the flag of Poland; its capital is Warsaw. Also here: Hungary, Romania."
+164,6,multiple_choice,exercise,163,Capital of Poland?,Podgorica|Sarajevo|Warsaw,2,,,Warsaw is the capital of Poland.
+165,6,true_false,exercise,163,Monaco is the capital of Poland.,,false,,,False. The capital of Poland is Warsaw.
+166,6,multiple_choice,exercise,163,Capital of Czechia?,Prague|San Marino|Podgorica,0,,,Prague is the capital of Czechia.
+167,6,multiple_choice,exercise,163,Which country's flag?,Greece|Czechia|Hungary,1,flags/cz.png,,This is the flag of Czechia; its capital is Prague.
+168,6,multiple_choice,exercise,163,Capital of Slovakia?,Reykjavik|Warsaw|Bratislava,2,,,Bratislava is the capital of Slovakia.
+169,6,multiple_choice,exercise,163,Name this flag.,Slovakia|Portugal|United Kingdom,0,flags/sk.png,,This is the flag of Slovakia; its capital is Bratislava.
+170,6,multiple_choice,exercise,163,Capital of Hungary?,Paris|Budapest|Reykjavik,1,,,Budapest is the capital of Hungary.
+171,6,multiple_choice,exercise,163,This flag is from?,France|Belgium|Hungary,2,flags/hu.png,,This is the flag of Hungary; its capital is Budapest.
+172,6,multiple_choice,exercise,163,Capital of Romania?,Bucharest|San Marino|Budapest,0,,,Bucharest is the capital of Romania.
+173,6,multiple_choice,exercise,163,Flag of which country?,Greece|Romania|Luxembourg,1,flags/ro.png,,This is the flag of Romania; its capital is Bucharest.
+174,6,match_pairs,exercise,163,Match each country to its capital.,Poland↔Warsaw|Czechia↔Prague|Slovakia↔Bratislava|Hungary↔Budapest,,,,Each capital belongs to the country matched with it.
+175,6,true_false,preview,176,Bulgaria is in Eastern Europe.,,true,,,"True. This pack also covers Ukraine, Belarus."
+176,6,multiple_choice,main,,Whose flag is this?,Ireland|Sweden|Bulgaria,2,flags/bg.png,,"This is the flag of Bulgaria; its capital is Sofia. Also here: Moldova, Russia."
+177,6,multiple_choice,exercise,176,Capital of Bulgaria?,Sofia|Tirana|Budapest,0,,,Sofia is the capital of Bulgaria.
+178,6,true_false,exercise,176,Luxembourg City is the capital of Bulgaria.,,false,,,False. The capital of Bulgaria is Sofia.
+179,6,multiple_choice,exercise,176,Capital of Ukraine?,Vaduz|Kyiv|Stockholm,1,,,Kyiv is the capital of Ukraine.
+180,6,multiple_choice,exercise,176,Which country's flag?,Andorra|San Marino|Ukraine,2,flags/ua.png,,This is the flag of Ukraine; its capital is Kyiv.
+181,6,multiple_choice,exercise,176,Capital of Belarus?,Minsk|Rome|Vilnius,0,,,Minsk is the capital of Belarus.
+182,6,multiple_choice,exercise,176,Name this flag.,Italy|Belarus|Monaco,1,flags/by.png,,This is the flag of Belarus; its capital is Minsk.
+183,6,multiple_choice,exercise,176,Capital of Moldova?,Riga|Bucharest|Chisinau,2,,,Chisinau is the capital of Moldova.
+184,6,multiple_choice,exercise,176,This flag is from?,Moldova|San Marino|Liechtenstein,0,flags/md.png,,This is the flag of Moldova; its capital is Chisinau.
+185,6,multiple_choice,exercise,176,Capital of Russia?,Rome|Moscow|Belgrade,1,,,Moscow is the capital of Russia.
+186,6,multiple_choice,exercise,176,Flag of which country?,Montenegro|Italy|Russia,2,flags/ru.png,,This is the flag of Russia; its capital is Moscow.
+187,6,match_pairs,exercise,176,Match each country to its capital.,Bulgaria↔Sofia|Ukraine↔Kyiv|Belarus↔Minsk|Moldova↔Chisinau,,,,Each capital belongs to the country matched with it.
+188,6,true_false,preview,189,Paris is a capital city.,,true,,,True. Paris is the capital of France.
+189,6,multiple_choice,main,,Whose flag is this?,France|Belgium|Hungary,0,flags/fr.png,,This is the flag of France; its capital is Paris.
+190,6,multiple_choice,exercise,189,Capital of France?,Brussels|Paris|London,1,,,Paris is the capital of France.
+191,6,true_false,exercise,189,Bern is the capital of France.,,false,,,False. The capital of France is Paris.
+192,6,multiple_choice,exercise,189,Capital of Germany?,Lisbon|Minsk|Berlin,2,,,Berlin is the capital of Germany.
+193,6,multiple_choice,exercise,189,Which country's flag?,Germany|Hungary|United Kingdom,0,flags/de.png,,This is the flag of Germany; its capital is Berlin.
+194,6,multiple_choice,exercise,189,Capital of Belgium?,Paris|Brussels|Berlin,1,,,Brussels is the capital of Belgium.
+195,6,multiple_choice,exercise,189,Name this flag.,Germany|Portugal|Belgium,2,flags/be.png,,This is the flag of Belgium; its capital is Brussels.
+196,6,match_pairs,exercise,189,"Match each term, round 1.",Landlocked country↔No sea coast|Peninsula↔Land almost surrounded|Archipelago↔Island chain|Strait↔Narrow channel|Capital city↔Government seat,,,,Each term goes with its short meaning.
+197,7,true_false,preview,198,United States is in North America.,,true,,,True. This pack also covers Canada.
+198,7,multiple_choice,main,,Whose flag is this?,United States|Belgium|Canada,0,flags/us.png,,"This is the flag of United States; its capital is Washington, D.C.. Also here: Mexico."
+199,7,multiple_choice,exercise,198,Capital of United States?,"Amsterdam|Washington, D.C.|Ottawa",1,,,"Washington, D.C. is the capital of United States."
+200,7,true_false,exercise,198,Luxembourg City is the capital of United States.,,false,,,"False. The capital of United States is Washington, D.C.."
+201,7,multiple_choice,exercise,198,Capital of Canada?,Mexico City|Brussels|Ottawa,2,,,Ottawa is the capital of Canada.
+202,7,multiple_choice,exercise,198,Which country's flag?,Canada|Germany|France,0,flags/ca.png,,This is the flag of Canada; its capital is Ottawa.
+203,7,multiple_choice,exercise,198,Capital of Mexico?,Luxembourg City|Mexico City|Ottawa,1,,,Mexico City is the capital of Mexico.
+204,7,multiple_choice,exercise,198,Name this flag.,Canada|Belgium|Mexico,2,flags/mx.png,,This is the flag of Mexico; its capital is Mexico City.
+205,8,true_false,preview,206,Guatemala is in Central America.,,true,,,True. This pack also covers Belize.
+206,8,multiple_choice,main,,Whose flag is this?,Guatemala|Mexico|El Salvador,0,flags/gt.png,,"This is the flag of Guatemala; its capital is Guatemala City. Also here: Honduras, El Salvador."
+207,8,multiple_choice,exercise,206,Capital of Guatemala?,Ottawa|Guatemala City|Tegucigalpa,1,,,Guatemala City is the capital of Guatemala.
+208,8,true_false,exercise,206,Belmopan is the capital of Guatemala.,,false,,,False. The capital of Guatemala is Guatemala City.
+209,8,multiple_choice,exercise,206,Capital of Belize?,Mexico City|Guatemala City|Belmopan,2,,,Belmopan is the capital of Belize.
+210,8,multiple_choice,exercise,206,Which country's flag?,Belize|Mexico|United States,0,flags/bz.png,,This is the flag of Belize; its capital is Belmopan.
+211,8,multiple_choice,exercise,206,Capital of Honduras?,"Washington, D.C.|Tegucigalpa|Mexico City",1,,,Tegucigalpa is the capital of Honduras.
+212,8,multiple_choice,exercise,206,Name this flag.,Guatemala|France|Honduras,2,flags/hn.png,,This is the flag of Honduras; its capital is Tegucigalpa.
+213,8,multiple_choice,exercise,206,Capital of El Salvador?,San Salvador|Guatemala City|Tegucigalpa,0,,,San Salvador is the capital of El Salvador.
+214,8,multiple_choice,exercise,206,This flag is from?,Honduras|El Salvador|Canada,1,flags/sv.png,,This is the flag of El Salvador; its capital is San Salvador.
+215,8,match_pairs,exercise,206,Match each country to its capital.,Belize↔Belmopan|Honduras↔Tegucigalpa|El Salvador↔San Salvador,,,,Each capital belongs to the country matched with it.
+216,8,true_false,preview,217,Nicaragua is in Central America.,,true,,,True. This pack also covers Costa Rica.
+217,8,multiple_choice,main,,Whose flag is this?,Belize|Guatemala|Nicaragua,2,flags/ni.png,,This is the flag of Nicaragua; its capital is Managua. Also here: Panama.
+218,8,multiple_choice,exercise,217,Capital of Nicaragua?,Managua|Mexico City|Guatemala City,0,,,Managua is the capital of Nicaragua.
+219,8,true_false,exercise,217,San Jose is the capital of Nicaragua.,,false,,,False. The capital of Nicaragua is Managua.
+220,8,multiple_choice,exercise,217,Capital of Costa Rica?,Mexico City|San Jose|Tegucigalpa,1,,,San Jose is the capital of Costa Rica.
+221,8,multiple_choice,exercise,217,Which country's flag?,Belize|El Salvador|Costa Rica,2,flags/cr.png,,This is the flag of Costa Rica; its capital is San Jose.
+222,8,multiple_choice,exercise,217,Capital of Panama?,Panama City|Managua|San Jose,0,,,Panama City is the capital of Panama.
+223,8,multiple_choice,exercise,217,Name this flag.,Belize|Panama|Nicaragua,1,flags/pa.png,,This is the flag of Panama; its capital is Panama City.
+224,9,true_false,preview,225,Cuba is in the Caribbean.,,true,,,"True. This pack also covers Jamaica, Haiti."
+225,9,multiple_choice,main,,Whose flag is this?,United States|Guatemala|Cuba,2,flags/cu.png,,"This is the flag of Cuba; its capital is Havana. Also here: Dominican Republic, Bahamas."
+226,9,multiple_choice,exercise,225,Capital of Cuba?,Havana|Tegucigalpa|Ottawa,0,,,Havana is the capital of Cuba.
+227,9,true_false,exercise,225,Guatemala City is the capital of Cuba.,,false,,,False. The capital of Cuba is Havana.
+228,9,multiple_choice,exercise,225,Capital of Jamaica?,Belmopan|Kingston|Panama City,1,,,Kingston is the capital of Jamaica.
+229,9,multiple_choice,exercise,225,Which country's flag?,Cuba|Honduras|Jamaica,2,flags/jm.png,,This is the flag of Jamaica; its capital is Kingston.
+230,9,multiple_choice,exercise,225,Capital of Haiti?,Port-au-Prince|Havana|Belmopan,0,,,Port-au-Prince is the capital of Haiti.
+231,9,multiple_choice,exercise,225,Name this flag.,Canada|Haiti|Cuba,1,flags/ht.png,,This is the flag of Haiti; its capital is Port-au-Prince.
+232,9,multiple_choice,exercise,225,Capital of Dominican Republic?,Managua|Havana|Santo Domingo,2,,,Santo Domingo is the capital of Dominican Republic.
+233,9,multiple_choice,exercise,225,This flag is from?,Dominican Republic|Bahamas|Haiti,0,flags/do.png,,This is the flag of Dominican Republic; its capital is Santo Domingo.
+234,9,multiple_choice,exercise,225,Capital of Bahamas?,Havana|Nassau|Ottawa,1,,,Nassau is the capital of Bahamas.
+235,9,multiple_choice,exercise,225,Flag of which country?,Nicaragua|El Salvador|Bahamas,2,flags/bs.png,,This is the flag of Bahamas; its capital is Nassau.
+236,9,match_pairs,exercise,225,Match each country to its capital.,Cuba↔Havana|Jamaica↔Kingston|Haiti↔Port-au-Prince|Dominican Republic↔Santo Domingo,,,,Each capital belongs to the country matched with it.
+237,9,true_false,preview,238,Barbados is in the Caribbean.,,true,,,True. This pack also covers Trinidad and Tobago.
+238,9,multiple_choice,main,,Whose flag is this?,Barbados|Saint Lucia|Mexico,0,flags/bb.png,,"This is the flag of Barbados; its capital is Bridgetown. Also here: Saint Lucia, Saint Vincent and the Grenadines."
+239,9,multiple_choice,exercise,238,Capital of Barbados?,"Ottawa|Bridgetown|Washington, D.C.",1,,,Bridgetown is the capital of Barbados.
+240,9,true_false,exercise,238,Guatemala City is the capital of Barbados.,,false,,,False. The capital of Barbados is Bridgetown.
+241,9,multiple_choice,exercise,238,Capital of Trinidad and Tobago?,Havana|Nassau|Port of Spain,2,,,Port of Spain is the capital of Trinidad and Tobago.
+242,9,multiple_choice,exercise,238,Which country's flag?,Trinidad and Tobago|Nicaragua|Saint Lucia,0,flags/tt.png,,This is the flag of Trinidad and Tobago; its capital is Port of Spain.
+243,9,multiple_choice,exercise,238,Capital of Saint Lucia?,Bridgetown|Castries|Tegucigalpa,1,,,Castries is the capital of Saint Lucia.
+244,9,multiple_choice,exercise,238,Name this flag.,Mexico|United States|Saint Lucia,2,flags/lc.png,,This is the flag of Saint Lucia; its capital is Castries.
+245,9,multiple_choice,exercise,238,Capital of Saint Vincent and the Grenadines?,"Kingstown|Kingston|Washington, D.C.",0,,,Kingstown is the capital of Saint Vincent and the Grenadines.
+246,9,multiple_choice,exercise,238,Whose flag?,Jamaica|Saint Vincent and the Grenadines|Haiti,1,flags/vc.png,,This is the flag of Saint Vincent and the Grenadines; its capital is Kingstown.
+247,9,match_pairs,exercise,238,Match each country to its capital.,Barbados↔Bridgetown|Trinidad and Tobago↔Port of Spain|Saint Lucia↔Castries|Saint Vincent and the Grenadines↔Kingstown,,,,Each capital belongs to the country matched with it.
+248,9,true_false,preview,249,Grenada is in the Caribbean.,,true,,,True. This pack also covers Antigua and Barbuda.
+249,9,multiple_choice,main,,Whose flag is this?,Dominican Republic|Panama|Grenada,2,flags/gd.png,,"This is the flag of Grenada; its capital is Saint George's. Also here: Dominica, Saint Kitts and Nevis."
+250,9,multiple_choice,exercise,249,Capital of Grenada?,Saint George's|Bridgetown|Basseterre,0,,,Saint George's is the capital of Grenada.
+251,9,true_false,exercise,249,Managua is the capital of Grenada.,,false,,,False. The capital of Grenada is Saint George's.
+252,9,multiple_choice,exercise,249,Capital of Antigua and Barbuda?,San Jose|Saint John's|Mexico City,1,,,Saint John's is the capital of Antigua and Barbuda.
+253,9,multiple_choice,exercise,249,Which country's flag?,Saint Lucia|Canada|Antigua and Barbuda,2,flags/ag.png,,This is the flag of Antigua and Barbuda; its capital is Saint John's.
+254,9,multiple_choice,exercise,249,Capital of Dominica?,Roseau|Belmopan|Guatemala City,0,,,Roseau is the capital of Dominica.
+255,9,multiple_choice,exercise,249,Name this flag.,Panama|Dominica|Costa Rica,1,flags/dm.png,,This is the flag of Dominica; its capital is Roseau.
+256,9,multiple_choice,exercise,249,Capital of Saint Kitts and Nevis?,Saint John's|Havana|Basseterre,2,,,Basseterre is the capital of Saint Kitts and Nevis.
+257,9,multiple_choice,exercise,249,This flag is from?,Saint Kitts and Nevis|Haiti|Dominica,0,flags/kn.png,,This is the flag of Saint Kitts and Nevis; its capital is Basseterre.
+258,9,match_pairs,exercise,249,Match each country to its capital.,Grenada↔Saint George's|Antigua and Barbuda↔Saint John's|Dominica↔Roseau|Saint Kitts and Nevis↔Basseterre,,,,Each capital belongs to the country matched with it.
+259,9,true_false,preview,260,"Washington, D.C. is a capital city.",,true,,,"True. Washington, D.C. is the capital of United States."
+260,9,multiple_choice,main,,Whose flag is this?,El Salvador|United States|Barbados,1,flags/us.png,,"This is the flag of United States; its capital is Washington, D.C.."
+261,9,multiple_choice,exercise,260,Capital of United States?,"Saint John's|Panama City|Washington, D.C.",2,,,"Washington, D.C. is the capital of United States."
+262,9,true_false,exercise,260,San Salvador is the capital of United States.,,false,,,"False. The capital of United States is Washington, D.C.."
+263,9,multiple_choice,exercise,260,Capital of Canada?,Ottawa|Bridgetown|Mexico City,0,,,Ottawa is the capital of Canada.
+264,9,multiple_choice,exercise,260,Which country's flag?,Costa Rica|Canada|Mexico,1,flags/ca.png,,This is the flag of Canada; its capital is Ottawa.
+265,9,multiple_choice,exercise,260,Capital of Mexico?,San Jose|Ottawa|Mexico City,2,,,Mexico City is the capital of Mexico.
+266,9,multiple_choice,exercise,260,Name this flag.,Mexico|Barbados|United States,0,flags/mx.png,,This is the flag of Mexico; its capital is Mexico City.
+267,10,true_false,preview,268,Brazil is in South America.,,true,,,True. This pack also covers Argentina.
+268,10,multiple_choice,main,,Whose flag is this?,France|Brazil|Peru,1,flags/br.png,,"This is the flag of Brazil; its capital is Brasilia. Also here: Chile, Peru."
+269,10,multiple_choice,exercise,268,Capital of Brazil?,Berlin|Lima|Brasilia,2,,,Brasilia is the capital of Brazil.
+270,10,true_false,exercise,268,Paris is the capital of Brazil.,,false,,,False. The capital of Brazil is Brasilia.
+271,10,multiple_choice,exercise,268,Capital of Argentina?,Buenos Aires|Paris|Lima,0,,,Buenos Aires is the capital of Argentina.
+272,10,multiple_choice,exercise,268,Which country's flag?,Netherlands|Argentina|Peru,1,flags/ar.png,,This is the flag of Argentina; its capital is Buenos Aires.
+273,10,multiple_choice,exercise,268,Capital of Chile?,Berlin|Brasilia|Santiago,2,,,Santiago is the capital of Chile.
+274,10,multiple_choice,exercise,268,Name this flag.,Chile|Peru|Netherlands,0,flags/cl.png,,This is the flag of Chile; its capital is Santiago.
+275,10,multiple_choice,exercise,268,Capital of Peru?,Paris|Lima|Buenos Aires,1,,,Lima is the capital of Peru.
+276,10,multiple_choice,exercise,268,This flag is from?,Argentina|Chile|Peru,2,flags/pe.png,,This is the flag of Peru; its capital is Lima.
+277,10,match_pairs,exercise,268,Match each country to its capital.,Brazil↔Brasilia|Argentina↔Buenos Aires|Chile↔Santiago|Peru↔Lima,,,,Each capital belongs to the country matched with it.
+278,10,true_false,preview,279,Colombia is in South America.,,true,,,True. This pack also covers Venezuela.
+279,10,multiple_choice,main,,Whose flag is this?,Colombia|Chile|Argentina,0,flags/co.png,,"This is the flag of Colombia; its capital is Bogota. Also here: Ecuador, Bolivia."
+280,10,multiple_choice,exercise,279,Capital of Colombia?,Santiago|Bogota|Lima,1,,,Bogota is the capital of Colombia.
+281,10,true_false,exercise,279,Caracas is the capital of Colombia.,,false,,,False. The capital of Colombia is Bogota.
+282,10,multiple_choice,exercise,279,Capital of Venezuela?,Santiago|Buenos Aires|Caracas,2,,,Caracas is the capital of Venezuela.
+283,10,multiple_choice,exercise,279,Which country's flag?,Venezuela|Brazil|Bolivia,0,flags/ve.png,,This is the flag of Venezuela; its capital is Caracas.
+284,10,multiple_choice,exercise,279,Capital of Ecuador?,Sucre|Quito|Bogota,1,,,Quito is the capital of Ecuador.
+285,10,multiple_choice,exercise,279,Name this flag.,Bolivia|Argentina|Ecuador,2,flags/ec.png,,This is the flag of Ecuador; its capital is Quito.
+286,10,multiple_choice,exercise,279,Bolivia's constitutional capital?,Sucre|Santiago|Bogota,0,,,Sucre is the constitutional capital; the government sits in La Paz.
+287,10,multiple_choice,exercise,279,This flag is from?,Argentina|Bolivia|Colombia,1,flags/bo.png,,This is the flag of Bolivia.
+288,10,true_false,preview,289,Paraguay is in South America.,,true,,,True. This pack also covers Uruguay.
+289,10,multiple_choice,main,,Whose flag is this?,Guyana|Chile|Paraguay,2,flags/py.png,,"This is the flag of Paraguay; its capital is Asuncion. Also here: Guyana, Suriname."
+290,10,multiple_choice,exercise,289,Capital of Paraguay?,Asuncion|Santiago|Buenos Aires,0,,,Asuncion is the capital of Paraguay.
+291,10,true_false,exercise,289,Caracas is the capital of Paraguay.,,false,,,False. The capital of Paraguay is Asuncion.
+292,10,multiple_choice,exercise,289,Capital of Uruguay?,Sucre|Montevideo|Caracas,1,,,Montevideo is the capital of Uruguay.
+293,10,multiple_choice,exercise,289,Which country's flag?,Paraguay|Peru|Uruguay,2,flags/uy.png,,This is the flag of Uruguay; its capital is Montevideo.
+294,10,multiple_choice,exercise,289,Capital of Guyana?,Georgetown|Sucre|Lima,0,,,Georgetown is the capital of Guyana.
+295,10,multiple_choice,exercise,289,Name this flag.,Paraguay|Guyana|Uruguay,1,flags/gy.png,,This is the flag of Guyana; its capital is Georgetown.
+296,10,multiple_choice,exercise,289,Capital of Suriname?,Lima|Georgetown|Paramaribo,2,,,Paramaribo is the capital of Suriname.
+297,10,multiple_choice,exercise,289,This flag is from?,Suriname|Brazil|Paraguay,0,flags/sr.png,,This is the flag of Suriname; its capital is Paramaribo.
+298,10,match_pairs,exercise,289,Match each country to its capital.,Paraguay↔Asuncion|Uruguay↔Montevideo|Guyana↔Georgetown|Suriname↔Paramaribo,,,,Each capital belongs to the country matched with it.
+299,10,true_false,preview,300,Brasilia is a capital city.,,true,,,True. Brasilia is the capital of Brazil.
+300,10,multiple_choice,main,,Whose flag is this?,Ecuador|Brazil|Bolivia,1,flags/br.png,,This is the flag of Brazil; its capital is Brasilia.
+301,10,multiple_choice,exercise,300,Capital of Brazil?,Quito|Buenos Aires|Brasilia,2,,,Brasilia is the capital of Brazil.
+302,10,true_false,exercise,300,Buenos Aires is the capital of Brazil.,,false,,,False. The capital of Brazil is Brasilia.
+303,10,multiple_choice,exercise,300,Capital of Argentina?,Buenos Aires|Brasilia|Quito,0,,,Buenos Aires is the capital of Argentina.
+304,10,multiple_choice,exercise,300,Which country's flag?,Chile|Argentina|Bolivia,1,flags/ar.png,,This is the flag of Argentina; its capital is Buenos Aires.
+305,10,multiple_choice,exercise,300,Capital of Chile?,Quito|Sucre|Santiago,2,,,Santiago is the capital of Chile.
+306,10,multiple_choice,exercise,300,Name this flag.,Chile|Brazil|Bolivia,0,flags/cl.png,,This is the flag of Chile; its capital is Santiago.
+307,11,true_false,preview,308,China is in East Asia.,,true,,,"True. This pack also covers Japan, South Korea."
+308,11,multiple_choice,main,,Whose flag is this?,France|China|Belgium,1,flags/cn.png,,"This is the flag of China; its capital is Beijing. Also here: North Korea, Mongolia."
+309,11,multiple_choice,exercise,308,Capital of China?,Brussels|Pyongyang|Beijing,2,,,Beijing is the capital of China.
+310,11,true_false,exercise,308,Brussels is the capital of China.,,false,,,False. The capital of China is Beijing.
+311,11,multiple_choice,exercise,308,Capital of Japan?,Tokyo|Seoul|Brussels,0,,,Tokyo is the capital of Japan.
+312,11,multiple_choice,exercise,308,Which country's flag?,North Korea|Japan|Mongolia,1,flags/jp.png,,This is the flag of Japan; its capital is Tokyo.
+313,11,multiple_choice,exercise,308,Capital of South Korea?,Berlin|Paris|Seoul,2,,,Seoul is the capital of South Korea.
+314,11,multiple_choice,exercise,308,Name this flag.,South Korea|Japan|Mongolia,0,flags/kr.png,,This is the flag of South Korea; its capital is Seoul.
+315,11,multiple_choice,exercise,308,Capital of North Korea?,Seoul|Pyongyang|Tokyo,1,,,Pyongyang is the capital of North Korea.
+316,11,multiple_choice,exercise,308,This flag is from?,China|Germany|North Korea,2,flags/kp.png,,This is the flag of North Korea; its capital is Pyongyang.
+317,11,multiple_choice,exercise,308,Capital of Mongolia?,Ulaanbaatar|Berlin|Brussels,0,,,Ulaanbaatar is the capital of Mongolia.
+318,11,multiple_choice,exercise,308,Flag of which country?,France|Mongolia|Belgium,1,flags/mn.png,,This is the flag of Mongolia; its capital is Ulaanbaatar.
+319,11,match_pairs,exercise,308,Match each country to its capital.,China↔Beijing|Japan↔Tokyo|South Korea↔Seoul|North Korea↔Pyongyang,,,,Each capital belongs to the country matched with it.
+320,12,true_false,preview,321,Indonesia is in Southeast Asia.,,true,,,True. This pack also covers Philippines.
+321,12,multiple_choice,main,,Whose flag is this?,North Korea|Philippines|Indonesia,2,flags/id.png,,"This is the flag of Indonesia; its capital is Jakarta. Also here: Vietnam, Thailand."
+322,12,multiple_choice,exercise,321,Capital of Indonesia?,Jakarta|Bangkok|Manila,0,,,Jakarta is the capital of Indonesia.
+323,12,true_false,exercise,321,Tokyo is the capital of Indonesia.,,false,,,False. The capital of Indonesia is Jakarta.
+324,12,multiple_choice,exercise,321,Capital of Philippines?,Seoul|Manila|Hanoi,1,,,Manila is the capital of Philippines.
+325,12,multiple_choice,exercise,321,Which country's flag?,North Korea|South Korea|Philippines,2,flags/ph.png,,This is the flag of Philippines; its capital is Manila.
+326,12,multiple_choice,exercise,321,Capital of Vietnam?,Hanoi|Beijing|Pyongyang,0,,,Hanoi is the capital of Vietnam.
+327,12,multiple_choice,exercise,321,Name this flag.,Mongolia|Vietnam|North Korea,1,flags/vn.png,,This is the flag of Vietnam; its capital is Hanoi.
+328,12,multiple_choice,exercise,321,Capital of Thailand?,Hanoi|Ulaanbaatar|Bangkok,2,,,Bangkok is the capital of Thailand.
+329,12,multiple_choice,exercise,321,This flag is from?,Thailand|North Korea|China,0,flags/th.png,,This is the flag of Thailand; its capital is Bangkok.
+330,12,match_pairs,exercise,321,Match each country to its capital.,Indonesia↔Jakarta|Philippines↔Manila|Vietnam↔Hanoi|Thailand↔Bangkok,,,,Each capital belongs to the country matched with it.
+331,12,true_false,preview,332,Myanmar is in Southeast Asia.,,true,,,True. This pack also covers Malaysia.
+332,12,multiple_choice,main,,Whose flag is this?,Vietnam|Myanmar|Japan,1,flags/mm.png,,"This is the flag of Myanmar; its capital is Naypyidaw. Also here: Singapore, Cambodia."
+333,12,multiple_choice,exercise,332,Capital of Myanmar?,Hanoi|Tokyo|Naypyidaw,2,,,Naypyidaw is the capital of Myanmar.
+334,12,true_false,exercise,332,Kuala Lumpur is the capital of Myanmar.,,false,,,False. The capital of Myanmar is Naypyidaw.
+335,12,multiple_choice,exercise,332,Capital of Malaysia?,Kuala Lumpur|Manila|Beijing,0,,,Kuala Lumpur is the capital; Putrajaya hosts government offices.
+336,12,multiple_choice,exercise,332,Which country's flag?,Myanmar|Malaysia|South Korea,1,flags/my.png,,This is the flag of Malaysia.
+337,12,select_blank,exercise,332,Singapore is a ___.,peninsula|archipelago|city-state,2,,,Singapore is a city-state: a city that is also an independent country.
+338,12,multiple_choice,exercise,332,Name this flag.,Singapore|Indonesia|South Korea,0,flags/sg.png,,This is the flag of Singapore.
+339,12,multiple_choice,exercise,332,Capital of Cambodia?,Naypyidaw|Phnom Penh|Tokyo,1,,,Phnom Penh is the capital of Cambodia.
+340,12,multiple_choice,exercise,332,This flag is from?,Vietnam|Malaysia|Cambodia,2,flags/kh.png,,This is the flag of Cambodia; its capital is Phnom Penh.
+341,12,true_false,preview,342,Laos is in Southeast Asia.,,true,,,True. This pack also covers Brunei.
+342,12,multiple_choice,main,,Whose flag is this?,Laos|Thailand|Timor-Leste,0,flags/la.png,,This is the flag of Laos; its capital is Vientiane. Also here: Timor-Leste.
+343,12,multiple_choice,exercise,342,Capital of Laos?,Singapore|Vientiane|Ulaanbaatar,1,,,Vientiane is the capital of Laos.
+344,12,true_false,exercise,342,Pyongyang is the capital of Laos.,,false,,,False. The capital of Laos is Vientiane.
+345,12,multiple_choice,exercise,342,Capital of Brunei?,Phnom Penh|Ulaanbaatar|Bandar Seri Begawan,2,,,Bandar Seri Begawan is the capital of Brunei.
+346,12,multiple_choice,exercise,342,Which country's flag?,Brunei|Laos|Thailand,0,flags/bn.png,,This is the flag of Brunei; its capital is Bandar Seri Begawan.
+347,12,multiple_choice,exercise,342,Capital of Timor-Leste?,Singapore|Dili|Pyongyang,1,,,Dili is the capital of Timor-Leste.
+348,12,multiple_choice,exercise,342,Name this flag.,North Korea|Myanmar|Timor-Leste,2,flags/tl.png,,This is the flag of Timor-Leste; its capital is Dili.
+349,13,true_false,preview,350,India is in South or Central Asia.,,true,,,True. This pack also covers Pakistan.
+350,13,multiple_choice,main,,Whose flag is this?,India|Myanmar|Malaysia,0,flags/in.png,,"This is the flag of India; its capital is New Delhi. Also here: Bangladesh, Sri Lanka."
+351,13,multiple_choice,exercise,350,Capital of India?,Vientiane|New Delhi|Manila,1,,,New Delhi is the capital of India.
+352,13,true_false,exercise,350,Dili is the capital of India.,,false,,,False. The capital of India is New Delhi.
+353,13,multiple_choice,exercise,350,Capital of Pakistan?,Tokyo|Dhaka|Islamabad,2,,,Islamabad is the capital of Pakistan.
+354,13,multiple_choice,exercise,350,Which country's flag?,Pakistan|North Korea|India,0,flags/pk.png,,This is the flag of Pakistan; its capital is Islamabad.
+355,13,multiple_choice,exercise,350,Capital of Bangladesh?,Singapore|Dhaka|Dili,1,,,Dhaka is the capital of Bangladesh.
+356,13,multiple_choice,exercise,350,Name this flag.,North Korea|Philippines|Bangladesh,2,flags/bd.png,,This is the flag of Bangladesh; its capital is Dhaka.
+357,13,multiple_choice,exercise,350,Sri Lanka's commercial capital?,Colombo|Hanoi|Bangkok,0,,,Colombo is the commercial capital; Sri Jayawardenepura Kotte is the legislative capital.
+358,13,multiple_choice,exercise,350,This flag is from?,Myanmar|Sri Lanka|Japan,1,flags/lk.png,,This is the flag of Sri Lanka.
+359,13,true_false,preview,360,Nepal is in South or Central Asia.,,true,,,True. This pack also covers Bhutan.
+360,13,multiple_choice,main,,Whose flag is this?,Cambodia|Pakistan|Nepal,2,flags/np.png,,"This is the flag of Nepal; its capital is Kathmandu. Also here: Maldives, Afghanistan."
+361,13,multiple_choice,exercise,360,Capital of Nepal?,Kathmandu|Hanoi|Vientiane,0,,,Kathmandu is the capital of Nepal.
+362,13,true_false,exercise,360,Thimphu is the capital of Nepal.,,false,,,False. The capital of Nepal is Kathmandu.
+363,13,multiple_choice,exercise,360,Capital of Bhutan?,Ulaanbaatar|Thimphu|Islamabad,1,,,Thimphu is the capital of Bhutan.
+364,13,multiple_choice,exercise,360,Which country's flag?,Brunei|Myanmar|Bhutan,2,flags/bt.png,,This is the flag of Bhutan; its capital is Thimphu.
+365,13,multiple_choice,exercise,360,Capital of Maldives?,Male|Hanoi|Bangkok,0,,,Male is the capital of Maldives.
+366,13,multiple_choice,exercise,360,Name this flag.,Cambodia|Maldives|Sri Lanka,1,flags/mv.png,,This is the flag of Maldives; its capital is Male.
+367,13,multiple_choice,exercise,360,Capital of Afghanistan?,Kuala Lumpur|Tokyo|Kabul,2,,,Kabul is the capital of Afghanistan.
+368,13,true_false,exercise,360,Afghanistan is a landlocked country.,,true,,,True. Afghanistan has no sea coast; its capital is Kabul.
+369,13,match_pairs,exercise,360,Match each country to its capital.,Nepal↔Kathmandu|Bhutan↔Thimphu|Maldives↔Male|Afghanistan↔Kabul,,,,Each capital belongs to the country matched with it.
+370,13,true_false,preview,371,Iran is in South or Central Asia.,,true,,,True. This pack also covers Kazakhstan.
+371,13,multiple_choice,main,,Whose flag is this?,Iran|Sri Lanka|Philippines,0,flags/ir.png,,This is the flag of Iran; its capital is Tehran. Also here: Uzbekistan.
+372,13,multiple_choice,exercise,371,Capital of Iran?,Dhaka|Tehran|Singapore,1,,,Tehran is the capital of Iran.
+373,13,true_false,exercise,371,Singapore is the capital of Iran.,,false,,,False. The capital of Iran is Tehran.
+374,13,multiple_choice,exercise,371,Capital of Kazakhstan?,Thimphu|Kabul|Astana,2,,,Astana is the capital of Kazakhstan.
+375,13,multiple_choice,exercise,371,Which country's flag?,Kazakhstan|Thailand|Timor-Leste,0,flags/kz.png,,This is the flag of Kazakhstan; its capital is Astana.
+376,13,multiple_choice,exercise,371,Capital of Uzbekistan?,Beijing|Tashkent|Phnom Penh,1,,,Tashkent is the capital of Uzbekistan.
+377,13,multiple_choice,exercise,371,Name this flag.,Indonesia|Japan|Uzbekistan,2,flags/uz.png,,This is the flag of Uzbekistan; its capital is Tashkent.
+378,13,true_false,preview,379,Turkmenistan is in South or Central Asia.,,true,,,True. This pack also covers Kyrgyzstan.
+379,13,multiple_choice,main,,Whose flag is this?,Turkmenistan|South Korea|Bhutan,0,flags/tm.png,,This is the flag of Turkmenistan; its capital is Ashgabat. Also here: Tajikistan.
+380,13,multiple_choice,exercise,379,Capital of Turkmenistan?,Tokyo|Ashgabat|Kathmandu,1,,,Ashgabat is the capital of Turkmenistan.
+381,13,true_false,exercise,379,Kuala Lumpur is the capital of Turkmenistan.,,false,,,False. The capital of Turkmenistan is Ashgabat.
+382,13,multiple_choice,exercise,379,Capital of Kyrgyzstan?,Pyongyang|Male|Bishkek,2,,,Bishkek is the capital of Kyrgyzstan.
+383,13,multiple_choice,exercise,379,Which country's flag?,Kyrgyzstan|Maldives|China,0,flags/kg.png,,This is the flag of Kyrgyzstan; its capital is Bishkek.
+384,13,multiple_choice,exercise,379,Capital of Tajikistan?,Tehran|Dushanbe|Manila,1,,,Dushanbe is the capital of Tajikistan.
+385,13,multiple_choice,exercise,379,Name this flag.,Vietnam|Bangladesh|Tajikistan,2,flags/tj.png,,This is the flag of Tajikistan; its capital is Dushanbe.
+386,14,true_false,preview,387,Turkey is in West Asia.,,true,,,"True. This pack also covers Georgia, Armenia."
+387,14,multiple_choice,main,,Whose flag is this?,Turkey|Thailand|Cyprus,0,flags/tr.png,,"This is the flag of Turkey; its capital is Ankara. Also here: Azerbaijan, Cyprus."
+388,14,multiple_choice,exercise,387,Capital of Turkey?,Bishkek|Ankara|Bangkok,1,,,Ankara is the capital of Turkey.
+389,14,true_false,exercise,387,Astana is the capital of Turkey.,,false,,,False. The capital of Turkey is Ankara.
+390,14,multiple_choice,exercise,387,Capital of Georgia?,Colombo|Hanoi|Tbilisi,2,,,Tbilisi is the capital of Georgia.
+391,14,multiple_choice,exercise,387,Which country's flag?,Georgia|Thailand|Malaysia,0,flags/ge.png,,This is the flag of Georgia; its capital is Tbilisi.
+392,14,multiple_choice,exercise,387,Capital of Armenia?,Manila|Yerevan|Bangkok,1,,,Yerevan is the capital of Armenia.
+393,14,multiple_choice,exercise,387,Name this flag.,Azerbaijan|Uzbekistan|Armenia,2,flags/am.png,,This is the flag of Armenia; its capital is Yerevan.
+394,14,multiple_choice,exercise,387,Capital of Azerbaijan?,Baku|Dhaka|Singapore,0,,,Baku is the capital of Azerbaijan.
+395,14,multiple_choice,exercise,387,This flag is from?,Sri Lanka|Azerbaijan|Pakistan,1,flags/az.png,,This is the flag of Azerbaijan; its capital is Baku.
+396,14,multiple_choice,exercise,387,Capital of Cyprus?,Islamabad|Seoul|Nicosia,2,,,Nicosia is the capital of Cyprus.
+397,14,multiple_choice,exercise,387,Flag of which country?,Cyprus|Afghanistan|Mongolia,0,flags/cy.png,,This is the flag of Cyprus; its capital is Nicosia.
+398,14,match_pairs,exercise,387,Match each country to its capital.,Turkey↔Ankara|Georgia↔Tbilisi|Armenia↔Yerevan|Azerbaijan↔Baku,,,,Each capital belongs to the country matched with it.
+399,14,true_false,preview,400,Syria is in West Asia.,,true,,,True. This pack also covers Lebanon.
+400,14,multiple_choice,main,,Whose flag is this?,China|Syria|Afghanistan,1,flags/sy.png,,"This is the flag of Syria; its capital is Damascus. Also here: Israel, Jordan."
+401,14,multiple_choice,exercise,400,Capital of Syria?,Phnom Penh|Tokyo|Damascus,2,,,Damascus is the capital of Syria.
+402,14,true_false,exercise,400,Kabul is the capital of Syria.,,false,,,False. The capital of Syria is Damascus.
+403,14,multiple_choice,exercise,400,Capital of Lebanon?,Beirut|Baku|Ankara,0,,,Beirut is the capital of Lebanon.
+404,14,multiple_choice,exercise,400,Which country's flag?,Thailand|Lebanon|Myanmar,1,flags/lb.png,,This is the flag of Lebanon; its capital is Beirut.
+405,14,multiple_choice,exercise,400,Which sea is west of Israel?,Red Sea|Black Sea|Mediterranean Sea,2,,,Israel's western coast is on the Mediterranean Sea.
+406,14,multiple_choice,exercise,400,Name this flag.,Israel|South Korea|Mongolia,0,flags/il.png,,This is the flag of Israel.
+407,14,multiple_choice,exercise,400,Capital of Jordan?,Ashgabat|Amman|Baku,1,,,Amman is the capital of Jordan.
+408,14,multiple_choice,exercise,400,This flag is from?,Nepal|Pakistan|Jordan,2,flags/jo.png,,This is the flag of Jordan; its capital is Amman.
+409,14,true_false,preview,410,Iraq is in West Asia.,,true,,,True. This pack also covers Saudi Arabia.
+410,14,multiple_choice,main,,Whose flag is this?,Iraq|Philippines|China,0,flags/iq.png,,"This is the flag of Iraq; its capital is Baghdad. Also here: Yemen, Oman."
+411,14,multiple_choice,exercise,410,Capital of Iraq?,Singapore|Baghdad|Phnom Penh,1,,,Baghdad is the capital of Iraq.
+412,14,true_false,exercise,410,Tbilisi is the capital of Iraq.,,false,,,False. The capital of Iraq is Baghdad.
+413,14,multiple_choice,exercise,410,Capital of Saudi Arabia?,Manila|Ulaanbaatar|Riyadh,2,,,Riyadh is the capital of Saudi Arabia.
+414,14,multiple_choice,exercise,410,Which country's flag?,Saudi Arabia|Jordan|Georgia,0,flags/sa.png,,This is the flag of Saudi Arabia; its capital is Riyadh.
+415,14,multiple_choice,exercise,410,Capital of Yemen?,Beirut|Sana'a|Tehran,1,,,Sana'a is the capital of Yemen.
+416,14,multiple_choice,exercise,410,Name this flag.,Sri Lanka|Georgia|Yemen,2,flags/ye.png,,This is the flag of Yemen; its capital is Sana'a.
+417,14,multiple_choice,exercise,410,Capital of Oman?,Muscat|Ankara|Tokyo,0,,,Muscat is the capital of Oman.
+418,14,multiple_choice,exercise,410,This flag is from?,Nepal|Oman|Vietnam,1,flags/om.png,,This is the flag of Oman; its capital is Muscat.
+419,14,match_pairs,exercise,410,Match each country to its capital.,Iraq↔Baghdad|Saudi Arabia↔Riyadh|Yemen↔Sana'a|Oman↔Muscat,,,,Each capital belongs to the country matched with it.
+420,14,true_false,preview,421,United Arab Emirates is in West Asia.,,true,,,True. This pack also covers Qatar.
+421,14,multiple_choice,main,,Whose flag is this?,Bangladesh|Sri Lanka|United Arab Emirates,2,flags/ae.png,,"This is the flag of United Arab Emirates; its capital is Abu Dhabi. Also here: Bahrain, Kuwait."
+422,14,multiple_choice,exercise,421,Capital of United Arab Emirates?,Abu Dhabi|Tokyo|Tehran,0,,,Abu Dhabi is the capital of United Arab Emirates.
+423,14,true_false,exercise,421,Pyongyang is the capital of United Arab Emirates.,,false,,,False. The capital of United Arab Emirates is Abu Dhabi.
+424,14,multiple_choice,exercise,421,Capital of Qatar?,Beijing|Doha|Bishkek,1,,,Doha is the capital of Qatar.
+425,14,multiple_choice,exercise,421,Which country's flag?,Nepal|Philippines|Qatar,2,flags/qa.png,,This is the flag of Qatar; its capital is Doha.
+426,14,multiple_choice,exercise,421,Capital of Bahrain?,Manama|Doha|Bishkek,0,,,Manama is the capital of Bahrain.
+427,14,multiple_choice,exercise,421,Name this flag.,Maldives|Bahrain|Pakistan,1,flags/bh.png,,This is the flag of Bahrain; its capital is Manama.
+428,14,multiple_choice,exercise,421,Capital of Kuwait?,Singapore|Hanoi|Kuwait City,2,,,Kuwait City is the capital of Kuwait.
+429,14,multiple_choice,exercise,421,This flag is from?,Kuwait|Bhutan|Singapore,0,flags/kw.png,,This is the flag of Kuwait; its capital is Kuwait City.
+430,14,match_pairs,exercise,421,Match each country to its capital.,United Arab Emirates↔Abu Dhabi|Qatar↔Doha|Bahrain↔Manama,,,,Each capital belongs to the country matched with it.
+431,14,true_false,preview,432,Beijing is a capital city.,,true,,,True. Beijing is the capital of China.
+432,14,multiple_choice,main,,Whose flag is this?,Cyprus|China|Iran,1,flags/cn.png,,This is the flag of China; its capital is Beijing.
+433,14,multiple_choice,exercise,432,Capital of China?,Tokyo|Singapore|Beijing,2,,,Beijing is the capital of China.
+434,14,true_false,exercise,432,Hanoi is the capital of China.,,false,,,False. The capital of China is Beijing.
+435,14,multiple_choice,exercise,432,Capital of Japan?,Tokyo|Baku|Nicosia,0,,,Tokyo is the capital of Japan.
+436,14,multiple_choice,exercise,432,Which country's flag?,Azerbaijan|Japan|Iran,1,flags/jp.png,,This is the flag of Japan; its capital is Tokyo.
+437,14,multiple_choice,exercise,432,Capital of South Korea?,Nicosia|Tashkent|Seoul,2,,,Seoul is the capital of South Korea.
+438,14,multiple_choice,exercise,432,Name this flag.,South Korea|Azerbaijan|Singapore,0,flags/kr.png,,This is the flag of South Korea; its capital is Seoul.
+439,15,true_false,preview,440,Egypt is in North Africa.,,true,,,True. This pack also covers Libya.
+440,15,multiple_choice,main,,Whose flag is this?,Belgium|Egypt|Tunisia,1,flags/eg.png,,This is the flag of Egypt; its capital is Cairo. Also here: Tunisia.
+441,15,multiple_choice,exercise,440,Capital of Egypt?,Tunis|Luxembourg City|Cairo,2,,,Cairo is the capital of Egypt.
+442,15,true_false,exercise,440,Paris is the capital of Egypt.,,false,,,False. The capital of Egypt is Cairo.
+443,15,multiple_choice,exercise,440,Capital of Libya?,Tripoli|Tunis|Berlin,0,,,Tripoli is the capital of Libya.
+444,15,multiple_choice,exercise,440,Which country's flag?,Egypt|Libya|Germany,1,flags/ly.png,,This is the flag of Libya; its capital is Tripoli.
+445,15,multiple_choice,exercise,440,Capital of Tunisia?,Amsterdam|Luxembourg City|Tunis,2,,,Tunis is the capital of Tunisia.
+446,15,multiple_choice,exercise,440,Name this flag.,Tunisia|Luxembourg|Germany,0,flags/tn.png,,This is the flag of Tunisia; its capital is Tunis.
+447,15,true_false,preview,448,Algeria is in North Africa.,,true,,,True. This pack also covers Morocco.
+448,15,multiple_choice,main,,Whose flag is this?,France|Algeria|Tunisia,1,flags/dz.png,,This is the flag of Algeria; its capital is Algiers. Also here: Sudan.
+449,15,multiple_choice,exercise,448,Capital of Algeria?,Cairo|Khartoum|Algiers,2,,,Algiers is the capital of Algeria.
+450,15,true_false,exercise,448,Paris is the capital of Algeria.,,false,,,False. The capital of Algeria is Algiers.
+451,15,multiple_choice,exercise,448,Capital of Morocco?,Rabat|Tunis|Tripoli,0,,,Rabat is the capital of Morocco.
+452,15,multiple_choice,exercise,448,Which country's flag?,Germany|Morocco|Sudan,1,flags/ma.png,,This is the flag of Morocco; its capital is Rabat.
+453,15,multiple_choice,exercise,448,Capital of Sudan?,Berlin|Paris|Khartoum,2,,,Khartoum is the capital of Sudan.
+454,15,multiple_choice,exercise,448,Name this flag.,Sudan|Egypt|Libya,0,flags/sd.png,,This is the flag of Sudan; its capital is Khartoum.
+455,16,true_false,preview,456,Nigeria is in West Africa.,,true,,,True. This pack also covers Ghana.
+456,16,multiple_choice,main,,Whose flag is this?,Ghana|Nigeria|Sudan,1,flags/ng.png,,"This is the flag of Nigeria; its capital is Abuja. Also here: Senegal, Mali."
+457,16,multiple_choice,exercise,456,Capital of Nigeria?,Bamako|Dakar|Abuja,2,,,Abuja is the capital of Nigeria.
+458,16,true_false,exercise,456,Rabat is the capital of Nigeria.,,false,,,False. The capital of Nigeria is Abuja.
+459,16,multiple_choice,exercise,456,Capital of Ghana?,Accra|Dakar|Tunis,0,,,Accra is the capital of Ghana.
+460,16,multiple_choice,exercise,456,Which country's flag?,Libya|Ghana|Morocco,1,flags/gh.png,,This is the flag of Ghana; its capital is Accra.
+461,16,multiple_choice,exercise,456,Capital of Senegal?,Bamako|Tripoli|Dakar,2,,,Dakar is the capital of Senegal.
+462,16,multiple_choice,exercise,456,Name this flag.,Senegal|Ghana|Sudan,0,flags/sn.png,,This is the flag of Senegal; its capital is Dakar.
+463,16,multiple_choice,exercise,456,Capital of Mali?,Tripoli|Bamako|Accra,1,,,Bamako is the capital of Mali.
+464,16,multiple_choice,exercise,456,This flag is from?,Libya|Nigeria|Mali,2,flags/ml.png,,This is the flag of Mali; its capital is Bamako.
+465,16,match_pairs,exercise,456,Match each country to its capital.,Nigeria↔Abuja|Ghana↔Accra|Senegal↔Dakar|Mali↔Bamako,,,,Each capital belongs to the country matched with it.
+466,16,true_false,preview,467,Niger is in West Africa.,,true,,,True. This pack also covers Burkina Faso.
+467,16,multiple_choice,main,,Whose flag is this?,Niger|Senegal|Ghana,0,flags/ne.png,,"This is the flag of Niger; its capital is Niamey. Also here: Benin, Togo."
+468,16,multiple_choice,exercise,467,Capital of Niger?,Lome|Niamey|Ouagadougou,1,,,Niamey is the capital of Niger.
+469,16,true_false,exercise,467,Ouagadougou is the capital of Niger.,,false,,,False. The capital of Niger is Niamey.
+470,16,multiple_choice,exercise,467,Capital of Burkina Faso?,Tunis|Cairo|Ouagadougou,2,,,Ouagadougou is the capital of Burkina Faso.
+471,16,multiple_choice,exercise,467,Which country's flag?,Burkina Faso|Algeria|Morocco,0,flags/bf.png,,This is the flag of Burkina Faso; its capital is Ouagadougou.
+472,16,multiple_choice,exercise,467,Benin's official capital?,Rabat|Porto-Novo|Dakar,1,,,Porto-Novo is the official capital; Cotonou is the largest city.
+473,16,multiple_choice,exercise,467,Name this flag.,Senegal|Algeria|Benin,2,flags/bj.png,,This is the flag of Benin.
+474,16,multiple_choice,exercise,467,Capital of Togo?,Lome|Rabat|Porto-Novo,0,,,Lome is the capital of Togo.
+475,16,multiple_choice,exercise,467,This flag is from?,Niger|Togo|Libya,1,flags/tg.png,,This is the flag of Togo; its capital is Lome.
+476,16,true_false,preview,477,Ivory Coast is in West Africa.,,true,,,True. This pack also covers Liberia.
+477,16,multiple_choice,main,,Whose flag is this?,Morocco|Mali|Ivory Coast,2,flags/ci.png,,"This is the flag of Ivory Coast. Also here: Sierra Leone, Guinea."
+478,16,multiple_choice,exercise,477,Capital of Ivory Coast?,Yamoussoukro|Accra|Ouagadougou,0,,,Yamoussoukro is the capital; Abidjan is the largest city.
+479,16,true_false,exercise,477,Ivory Coast is a country in South or Central Asia.,,false,,,False. Ivory Coast is in West Africa.
+480,16,multiple_choice,exercise,477,Capital of Liberia?,Yamoussoukro|Monrovia|Rabat,1,,,Monrovia is the capital of Liberia.
+481,16,multiple_choice,exercise,477,Which country's flag?,Tunisia|Egypt|Liberia,2,flags/lr.png,,This is the flag of Liberia; its capital is Monrovia.
+482,16,multiple_choice,exercise,477,Capital of Sierra Leone?,Freetown|Yamoussoukro|Khartoum,0,,,Freetown is the capital of Sierra Leone.
+483,16,multiple_choice,exercise,477,Name this flag.,Niger|Sierra Leone|Tunisia,1,flags/sl.png,,This is the flag of Sierra Leone; its capital is Freetown.
+484,16,multiple_choice,exercise,477,Capital of Guinea?,Khartoum|Rabat|Conakry,2,,,Conakry is the capital of Guinea.
+485,16,multiple_choice,exercise,477,This flag is from?,Guinea|Egypt|Tunisia,0,flags/gn.png,,This is the flag of Guinea; its capital is Conakry.
+486,16,true_false,preview,487,Guinea-Bissau is in West Africa.,,true,,,True. This pack also covers Gambia.
+487,16,multiple_choice,main,,Whose flag is this?,Nigeria|Guinea-Bissau|Libya,1,flags/gw.png,,"This is the flag of Guinea-Bissau; its capital is Bissau. Also here: Mauritania, Cabo Verde."
+488,16,multiple_choice,exercise,487,Capital of Guinea-Bissau?,Bamako|Nouakchott|Bissau,2,,,Bissau is the capital of Guinea-Bissau.
+489,16,true_false,exercise,487,Khartoum is the capital of Guinea-Bissau.,,false,,,False. The capital of Guinea-Bissau is Bissau.
+490,16,multiple_choice,exercise,487,Capital of Gambia?,Banjul|Bissau|Tunis,0,,,Banjul is the capital of Gambia.
+491,16,multiple_choice,exercise,487,Which country's flag?,Benin|Gambia|Mali,1,flags/gm.png,,This is the flag of Gambia; its capital is Banjul.
+492,16,multiple_choice,exercise,487,Capital of Mauritania?,Porto-Novo|Dakar|Nouakchott,2,,,Nouakchott is the capital of Mauritania.
+493,16,multiple_choice,exercise,487,Name this flag.,Mauritania|Togo|Algeria,0,flags/mr.png,,This is the flag of Mauritania; its capital is Nouakchott.
+494,16,multiple_choice,exercise,487,Capital of Cabo Verde?,Bamako|Praia|Algiers,1,,,Praia is the capital of Cabo Verde.
+495,16,multiple_choice,exercise,487,This flag is from?,Mauritania|Guinea|Cabo Verde,2,flags/cv.png,,This is the flag of Cabo Verde; its capital is Praia.
+496,16,match_pairs,exercise,487,Match each country to its capital.,Guinea-Bissau↔Bissau|Gambia↔Banjul|Mauritania↔Nouakchott|Cabo Verde↔Praia,,,,Each capital belongs to the country matched with it.
+497,17,true_false,preview,498,Ethiopia is in East Africa.,,true,,,"True. This pack also covers Kenya, Tanzania."
+498,17,multiple_choice,main,,Whose flag is this?,Ethiopia|Liberia|Rwanda,0,flags/et.png,,"This is the flag of Ethiopia; its capital is Addis Ababa. Also here: Uganda, Rwanda."
+499,17,multiple_choice,exercise,498,Capital of Ethiopia?,Rabat|Addis Ababa|Abuja,1,,,Addis Ababa is the capital of Ethiopia.
+500,17,true_false,exercise,498,Kigali is the capital of Ethiopia.,,false,,,False. The capital of Ethiopia is Addis Ababa.
+501,17,multiple_choice,exercise,498,Capital of Kenya?,Abuja|Conakry|Nairobi,2,,,Nairobi is the capital of Kenya.
+502,17,multiple_choice,exercise,498,Which country's flag?,Kenya|Guinea-Bissau|Tanzania,0,flags/ke.png,,This is the flag of Kenya; its capital is Nairobi.
+503,17,multiple_choice,exercise,498,Capital of Tanzania?,Dakar|Dodoma|Algiers,1,,,Dodoma is the capital; Dar es Salaam is the largest city.
+504,17,multiple_choice,exercise,498,Name this flag.,Cabo Verde|Guinea|Tanzania,2,flags/tz.png,,This is the flag of Tanzania.
+505,17,multiple_choice,exercise,498,Capital of Uganda?,Kampala|Porto-Novo|Dodoma,0,,,Kampala is the capital of Uganda.
+506,17,multiple_choice,exercise,498,This flag is from?,Guinea|Uganda|Mauritania,1,flags/ug.png,,This is the flag of Uganda; its capital is Kampala.
+507,17,multiple_choice,exercise,498,Capital of Rwanda?,Cairo|Addis Ababa|Kigali,2,,,Kigali is the capital of Rwanda.
+508,17,multiple_choice,exercise,498,Flag of which country?,Rwanda|Egypt|Guinea-Bissau,0,flags/rw.png,,This is the flag of Rwanda; its capital is Kigali.
+509,17,match_pairs,exercise,498,Match each country to its capital.,Ethiopia↔Addis Ababa|Kenya↔Nairobi|Uganda↔Kampala|Rwanda↔Kigali,,,,Each capital belongs to the country matched with it.
+510,17,true_false,preview,511,Burundi is in East Africa.,,true,,,"True. This pack also covers Somalia, Djibouti."
+511,17,multiple_choice,main,,Whose flag is this?,Nigeria|Burundi|Ivory Coast,1,flags/bi.png,,"This is the flag of Burundi. Also here: Eritrea, South Sudan."
+512,17,multiple_choice,exercise,511,Capital of Burundi?,Freetown|Porto-Novo|Gitega,2,,,Gitega is the political capital; Bujumbura is the largest city.
+513,17,true_false,exercise,511,Burundi is a country in Southern Europe.,,false,,,False. Burundi is in East Africa.
+514,17,multiple_choice,exercise,511,Capital of Somalia?,Mogadishu|Dodoma|Gitega,0,,,Mogadishu is the capital of Somalia.
+515,17,multiple_choice,exercise,511,Which country's flag?,Libya|Somalia|Burkina Faso,1,flags/so.png,,This is the flag of Somalia; its capital is Mogadishu.
+516,17,multiple_choice,exercise,511,Capital of Djibouti?,Bamako|Khartoum|Djibouti,2,,,Djibouti is the capital of Djibouti.
+517,17,multiple_choice,exercise,511,Name this flag.,Djibouti|Liberia|Kenya,0,flags/dj.png,,This is the flag of Djibouti; its capital is Djibouti.
+518,17,multiple_choice,exercise,511,Capital of Eritrea?,Yamoussoukro|Asmara|Kampala,1,,,Asmara is the capital of Eritrea.
+519,17,multiple_choice,exercise,511,This flag is from?,Sudan|Libya|Eritrea,2,flags/er.png,,This is the flag of Eritrea; its capital is Asmara.
+520,17,multiple_choice,exercise,511,Capital of South Sudan?,Juba|Lome|Dodoma,0,,,Juba is the capital of South Sudan.
+521,17,multiple_choice,exercise,511,Flag of which country?,Egypt|South Sudan|Ghana,1,flags/ss.png,,This is the flag of South Sudan; its capital is Juba.
+522,17,match_pairs,exercise,511,Match each country to its capital.,Somalia↔Mogadishu|Eritrea↔Asmara|South Sudan↔Juba|Kenya↔Nairobi,,,,Each capital belongs to the country matched with it.
+523,17,true_false,preview,524,Madagascar is in East Africa.,,true,,,True. This pack also covers Malawi.
+524,17,multiple_choice,main,,Whose flag is this?,Algeria|Benin|Madagascar,2,flags/mg.png,,"This is the flag of Madagascar; its capital is Antananarivo. Also here: Mozambique, Zambia."
+525,17,multiple_choice,exercise,524,Capital of Madagascar?,Antananarivo|Khartoum|Lome,0,,,Antananarivo is the capital of Madagascar.
+526,17,true_false,exercise,524,Dakar is the capital of Madagascar.,,false,,,False. The capital of Madagascar is Antananarivo.
+527,17,multiple_choice,exercise,524,Capital of Malawi?,Antananarivo|Lilongwe|Banjul,1,,,Lilongwe is the capital of Malawi.
+528,17,multiple_choice,exercise,524,Which country's flag?,Algeria|Rwanda|Malawi,2,flags/mw.png,,This is the flag of Malawi; its capital is Lilongwe.
+529,17,multiple_choice,exercise,524,Capital of Mozambique?,Maputo|Djibouti|Gitega,0,,,Maputo is the capital of Mozambique.
+530,17,multiple_choice,exercise,524,Name this flag.,Tunisia|Mozambique|Cabo Verde,1,flags/mz.png,,This is the flag of Mozambique; its capital is Maputo.
+531,17,multiple_choice,exercise,524,Capital of Zambia?,Tunis|Porto-Novo|Lusaka,2,,,Lusaka is the capital of Zambia.
+532,17,multiple_choice,exercise,524,This flag is from?,Zambia|Niger|Morocco,0,flags/zm.png,,This is the flag of Zambia; its capital is Lusaka.
+533,17,match_pairs,exercise,524,Match each country to its capital.,Madagascar↔Antananarivo|Malawi↔Lilongwe|Mozambique↔Maputo|Zambia↔Lusaka,,,,Each capital belongs to the country matched with it.
+534,17,true_false,preview,535,Zimbabwe is in East Africa.,,true,,,True. This pack also covers Mauritius.
+535,17,multiple_choice,main,,Whose flag is this?,Guinea-Bissau|Zimbabwe|Tunisia,1,flags/zw.png,,"This is the flag of Zimbabwe; its capital is Harare. Also here: Comoros, Seychelles."
+536,17,multiple_choice,exercise,535,Capital of Zimbabwe?,Abuja|Tripoli|Harare,2,,,Harare is the capital of Zimbabwe.
+537,17,true_false,exercise,535,Monrovia is the capital of Zimbabwe.,,false,,,False. The capital of Zimbabwe is Harare.
+538,17,multiple_choice,exercise,535,Capital of Mauritius?,Port Louis|Harare|Conakry,0,,,Port Louis is the capital of Mauritius.
+539,17,multiple_choice,exercise,535,Which country's flag?,Comoros|Mauritius|Rwanda,1,flags/mu.png,,This is the flag of Mauritius; its capital is Port Louis.
+540,17,multiple_choice,exercise,535,Capital of Comoros?,Addis Ababa|Mogadishu|Moroni,2,,,Moroni is the capital of Comoros.
+541,17,multiple_choice,exercise,535,Name this flag.,Comoros|Guinea-Bissau|Mali,0,flags/km.png,,This is the flag of Comoros; its capital is Moroni.
+542,17,multiple_choice,exercise,535,Capital of Seychelles?,Accra|Victoria|Khartoum,1,,,Victoria is the capital of Seychelles.
+543,17,multiple_choice,exercise,535,This flag is from?,Guinea|Nigeria|Seychelles,2,flags/sc.png,,This is the flag of Seychelles; its capital is Victoria.
+544,17,match_pairs,exercise,535,Match each country to its capital.,Zimbabwe↔Harare|Mauritius↔Port Louis|Comoros↔Moroni|Seychelles↔Victoria,,,,Each capital belongs to the country matched with it.
+545,17,true_false,preview,546,Harare is a capital city.,,true,,,True. Harare is the capital of Zimbabwe.
+546,17,multiple_choice,main,,Whose flag is this?,Zimbabwe|Mauritius|Ethiopia,0,flags/zw.png,,This is the flag of Zimbabwe; its capital is Harare.
+547,17,multiple_choice,exercise,546,Capital of Zimbabwe?,Nairobi|Harare|Cairo,1,,,Harare is the capital of Zimbabwe.
+548,17,true_false,exercise,546,Abuja is the capital of Zimbabwe.,,false,,,False. The capital of Zimbabwe is Harare.
+549,17,multiple_choice,exercise,546,Capital of Mauritius?,Accra|Addis Ababa|Port Louis,2,,,Port Louis is the capital of Mauritius.
+550,17,multiple_choice,exercise,546,Which country's flag?,Mauritius|Nigeria|Ghana,0,flags/mu.png,,This is the flag of Mauritius; its capital is Port Louis.
+551,17,multiple_choice,exercise,546,Capital of Comoros?,Addis Ababa|Moroni|Victoria,1,,,Moroni is the capital of Comoros.
+552,17,multiple_choice,exercise,546,Name this flag.,Ghana|Zimbabwe|Comoros,2,flags/km.png,,This is the flag of Comoros; its capital is Moroni.
+553,17,multiple_choice,exercise,546,Capital of Ethiopia?,Addis Ababa|Abuja|Nairobi,0,,,Addis Ababa is the capital of Ethiopia.
+554,17,multiple_choice,exercise,546,This flag is from?,Nigeria|Ethiopia|Seychelles,1,flags/et.png,,This is the flag of Ethiopia; its capital is Addis Ababa.
+555,18,true_false,preview,556,DR Congo is in Central Africa.,,true,,,"True. This pack also covers Republic of the Congo, Cameroon."
+556,18,multiple_choice,main,,Whose flag is this?,Nigeria|Mozambique|DR Congo,2,flags/cd.png,,"This is the flag of DR Congo; its capital is Kinshasa. Also here: Chad, Central African Republic."
+557,18,multiple_choice,exercise,556,Capital of DR Congo?,Kinshasa|Kampala|Port Louis,0,,,Kinshasa is the capital of DR Congo.
+558,18,true_false,exercise,556,Mogadishu is the capital of DR Congo.,,false,,,False. The capital of DR Congo is Kinshasa.
+559,18,multiple_choice,exercise,556,Capital of Republic of the Congo?,Tunis|Brazzaville|Abuja,1,,,Brazzaville is the capital of Republic of the Congo.
+560,18,multiple_choice,exercise,556,Which country's flag?,Burundi|Gambia|Republic of the Congo,2,flags/cg.png,,This is the flag of Republic of the Congo; its capital is Brazzaville.
+561,18,multiple_choice,exercise,556,Capital of Cameroon?,Yaounde|Dodoma|Harare,0,,,Yaounde is the capital of Cameroon.
+562,18,multiple_choice,exercise,556,Name this flag.,Somalia|Cameroon|Gambia,1,flags/cm.png,,This is the flag of Cameroon; its capital is Yaounde.
+563,18,multiple_choice,exercise,556,Capital of Chad?,Lilongwe|Dodoma|N'Djamena,2,,,N'Djamena is the capital of Chad.
+564,18,multiple_choice,exercise,556,This flag is from?,Chad|Zimbabwe|Egypt,0,flags/td.png,,This is the flag of Chad; its capital is N'Djamena.
+565,18,multiple_choice,exercise,556,Capital of Central African Republic?,Victoria|Bangui|Dakar,1,,,Bangui is the capital of Central African Republic.
+566,18,multiple_choice,exercise,556,Flag of which country?,Niger|Burundi|Central African Republic,2,flags/cf.png,,This is the flag of Central African Republic; its capital is Bangui.
+567,18,match_pairs,exercise,556,Match each country to its capital.,DR Congo↔Kinshasa|Republic of the Congo↔Brazzaville|Cameroon↔Yaounde|Chad↔N'Djamena,,,,Each capital belongs to the country matched with it.
+568,18,true_false,preview,569,Gabon is in Central Africa.,,true,,,True. This pack also covers Equatorial Guinea.
+569,18,multiple_choice,main,,Whose flag is this?,Gabon|Somalia|Rwanda,0,flags/ga.png,,"This is the flag of Gabon; its capital is Libreville. Also here: Sao Tome and Principe, Angola."
+570,18,multiple_choice,exercise,569,Capital of Gabon?,Banjul|Libreville|Antananarivo,1,,,Libreville is the capital of Gabon.
+571,18,true_false,exercise,569,N'Djamena is the capital of Gabon.,,false,,,False. The capital of Gabon is Libreville.
+572,18,multiple_choice,exercise,569,Capital of Equatorial Guinea?,Juba|Nouakchott|Malabo,2,,,Malabo is the capital of Equatorial Guinea.
+573,18,multiple_choice,exercise,569,Which country's flag?,Equatorial Guinea|Zimbabwe|Algeria,0,flags/gq.png,,This is the flag of Equatorial Guinea; its capital is Malabo.
+574,18,multiple_choice,exercise,569,Capital of Sao Tome and Principe?,Tripoli|Sao Tome|Bissau,1,,,Sao Tome is the capital of Sao Tome and Principe.
+575,18,multiple_choice,exercise,569,Name this flag.,Eritrea|Mauritania|Sao Tome and Principe,2,flags/st.png,,This is the flag of Sao Tome and Principe; its capital is Sao Tome.
+576,18,multiple_choice,exercise,569,Capital of Angola?,Luanda|Bamako|Praia,0,,,Luanda is the capital of Angola.
+577,18,multiple_choice,exercise,569,This flag is from?,Zimbabwe|Angola|Egypt,1,flags/ao.png,,This is the flag of Angola; its capital is Luanda.
+578,18,match_pairs,exercise,569,Match each country to its capital.,Gabon↔Libreville|Equatorial Guinea↔Malabo|Sao Tome and Principe↔Sao Tome|Angola↔Luanda,,,,Each capital belongs to the country matched with it.
+579,19,true_false,preview,580,South Africa is in Southern Africa.,,true,,,"True. This pack also covers Namibia, Botswana."
+580,19,multiple_choice,main,,Whose flag is this?,Madagascar|South Sudan|South Africa,2,flags/za.png,,"This is the flag of South Africa. Also here: Lesotho, Eswatini."
+581,19,multiple_choice,exercise,580,South Africa's executive capital?,Pretoria|Harare|Juba,0,,,Pretoria is the executive capital; Cape Town and Bloemfontein host parliament and courts.
+582,19,true_false,exercise,580,South Africa is a country in Northern Europe.,,false,,,False. South Africa is in Southern Africa.
+583,19,multiple_choice,exercise,580,Capital of Namibia?,Maseru|Windhoek|Lilongwe,1,,,Windhoek is the capital of Namibia.
+584,19,multiple_choice,exercise,580,Which country's flag?,Eritrea|Djibouti|Namibia,2,flags/na.png,,This is the flag of Namibia; its capital is Windhoek.
+585,19,multiple_choice,exercise,580,Capital of Botswana?,Gaborone|Harare|Djibouti,0,,,Gaborone is the capital of Botswana.
+586,19,multiple_choice,exercise,580,Name this flag.,Mauritius|Botswana|Mali,1,flags/bw.png,,This is the flag of Botswana; its capital is Gaborone.
+587,19,multiple_choice,exercise,580,Capital of Lesotho?,Lusaka|Monrovia|Maseru,2,,,Maseru is the capital of Lesotho.
+588,19,multiple_choice,exercise,580,This flag is from?,Lesotho|Guinea|Rwanda,0,flags/ls.png,,This is the flag of Lesotho; its capital is Maseru.
+589,19,multiple_choice,exercise,580,Eswatini's administrative capital?,Antananarivo|Mbabane|Pretoria,1,,,Mbabane is the administrative capital; Lobamba is the legislative and royal capital.
+590,19,multiple_choice,exercise,580,Flag of which country?,Ethiopia|Libya|Eswatini,2,flags/sz.png,,This is the flag of Eswatini.
+591,19,true_false,preview,592,Cairo is a capital city.,,true,,,True. Cairo is the capital of Egypt.
+592,19,multiple_choice,main,,Whose flag is this?,Egypt|Sudan|Djibouti,0,flags/eg.png,,This is the flag of Egypt; its capital is Cairo.
+593,19,multiple_choice,exercise,592,Capital of Egypt?,Tripoli|Cairo|Dakar,1,,,Cairo is the capital of Egypt.
+594,19,true_false,exercise,592,Djibouti is the capital of Egypt.,,false,,,False. The capital of Egypt is Cairo.
+595,19,multiple_choice,exercise,592,Capital of Libya?,Yamoussoukro|Khartoum|Tripoli,2,,,Tripoli is the capital of Libya.
+596,19,multiple_choice,exercise,592,Which country's flag?,Libya|Tunisia|Sudan,0,flags/ly.png,,This is the flag of Libya; its capital is Tripoli.
+597,19,multiple_choice,exercise,592,Capital of Tunisia?,Khartoum|Tunis|Yamoussoukro,1,,,Tunis is the capital of Tunisia.
+598,19,multiple_choice,exercise,592,Name this flag.,Ivory Coast|Sudan|Tunisia,2,flags/tn.png,,This is the flag of Tunisia; its capital is Tunis.
+599,20,true_false,preview,600,Australia is in Oceania.,,true,,,True. This pack also covers New Zealand.
+600,20,multiple_choice,main,,Whose flag is this?,Australia|Belgium|Germany,0,flags/au.png,,"This is the flag of Australia; its capital is Canberra. Also here: Papua New Guinea, Fiji."
+601,20,multiple_choice,exercise,600,Capital of Australia?,Port Moresby|Canberra|Berlin,1,,,Canberra is the capital of Australia.
+602,20,true_false,exercise,600,Brussels is the capital of Australia.,,false,,,False. The capital of Australia is Canberra.
+603,20,multiple_choice,exercise,600,Capital of New Zealand?,Berlin|Suva|Wellington,2,,,Wellington is the capital of New Zealand.
+604,20,multiple_choice,exercise,600,Which country's flag?,New Zealand|Fiji|Belgium,0,flags/nz.png,,This is the flag of New Zealand; its capital is Wellington.
+605,20,multiple_choice,exercise,600,Capital of Papua New Guinea?,Paris|Port Moresby|Canberra,1,,,Port Moresby is the capital of Papua New Guinea.
+606,20,multiple_choice,exercise,600,Name this flag.,New Zealand|France|Papua New Guinea,2,flags/pg.png,,This is the flag of Papua New Guinea; its capital is Port Moresby.
+607,20,multiple_choice,exercise,600,Capital of Fiji?,Suva|Canberra|Paris,0,,,Suva is the capital of Fiji.
+608,20,multiple_choice,exercise,600,This flag is from?,Germany|Fiji|France,1,flags/fj.png,,This is the flag of Fiji; its capital is Suva.
+609,20,match_pairs,exercise,600,Match each country to its capital.,Australia↔Canberra|New Zealand↔Wellington|Papua New Guinea↔Port Moresby|Fiji↔Suva,,,,Each capital belongs to the country matched with it.
+610,20,true_false,preview,611,Solomon Islands is in Oceania.,,true,,,True. This pack also covers Vanuatu.
+611,20,multiple_choice,main,,Whose flag is this?,Vanuatu|Tonga|Solomon Islands,2,flags/sb.png,,"This is the flag of Solomon Islands; its capital is Honiara. Also here: Samoa, Tonga."
+612,20,multiple_choice,exercise,611,Capital of Solomon Islands?,Honiara|Wellington|Suva,0,,,Honiara is the capital of Solomon Islands.
+613,20,true_false,exercise,611,Port Vila is the capital of Solomon Islands.,,false,,,False. The capital of Solomon Islands is Honiara.
+614,20,multiple_choice,exercise,611,Capital of Vanuatu?,Wellington|Port Vila|Honiara,1,,,Port Vila is the capital of Vanuatu.
+615,20,multiple_choice,exercise,611,Which country's flag?,Tonga|Fiji|Vanuatu,2,flags/vu.png,,This is the flag of Vanuatu; its capital is Port Vila.
+616,20,multiple_choice,exercise,611,Capital of Samoa?,Apia|Honiara|Nuku'alofa,0,,,Apia is the capital of Samoa.
+617,20,multiple_choice,exercise,611,Name this flag.,Solomon Islands|Samoa|Vanuatu,1,flags/ws.png,,This is the flag of Samoa; its capital is Apia.
+618,20,multiple_choice,exercise,611,Capital of Tonga?,Honiara|Canberra|Nuku'alofa,2,,,Nuku'alofa is the capital of Tonga.
+619,20,multiple_choice,exercise,611,This flag is from?,Tonga|Australia|New Zealand,0,flags/to.png,,This is the flag of Tonga; its capital is Nuku'alofa.
+620,20,match_pairs,exercise,611,Match each country to its capital.,Solomon Islands↔Honiara|Vanuatu↔Port Vila|Samoa↔Apia|Tonga↔Nuku'alofa,,,,Each capital belongs to the country matched with it.
+621,20,true_false,preview,622,Kiribati is in Oceania.,,true,,,True. This pack also covers Tuvalu.
+622,20,multiple_choice,main,,Whose flag is this?,Tuvalu|Kiribati|Fiji,1,flags/ki.png,,This is the flag of Kiribati; its capital is South Tarawa. Also here: Nauru.
+623,20,multiple_choice,exercise,622,Capital of Kiribati?,Port Moresby|Suva|South Tarawa,2,,,South Tarawa is the capital of Kiribati.
+624,20,true_false,exercise,622,Apia is the capital of Kiribati.,,false,,,False. The capital of Kiribati is South Tarawa.
+625,20,multiple_choice,exercise,622,Capital of Tuvalu?,Funafuti|Port Moresby|Nuku'alofa,0,,,Funafuti is the capital of Tuvalu.
+626,20,multiple_choice,exercise,622,Which country's flag?,Samoa|Tuvalu|Australia,1,flags/tv.png,,This is the flag of Tuvalu; its capital is Funafuti.
+627,20,multiple_choice,exercise,622,Nauru's seat of government?,Nuku'alofa|Funafuti|Yaren,2,,,Nauru has no official capital; government offices are in Yaren.
+628,20,multiple_choice,exercise,622,Name this flag.,Nauru|Tonga|Samoa,0,flags/nr.png,,This is the flag of Nauru.
+629,20,true_false,preview,630,Palau is in Oceania.,,true,,,True. This pack also covers Marshall Islands.
+630,20,multiple_choice,main,,Whose flag is this?,Samoa|Palau|Solomon Islands,1,flags/pw.png,,This is the flag of Palau; its capital is Ngerulmud. Also here: Micronesia.
+631,20,multiple_choice,exercise,630,Capital of Palau?,Nuku'alofa|Apia|Ngerulmud,2,,,Ngerulmud is the capital of Palau.
+632,20,true_false,exercise,630,Majuro is the capital of Palau.,,false,,,False. The capital of Palau is Ngerulmud.
+633,20,multiple_choice,exercise,630,Capital of Marshall Islands?,Majuro|Palikir|Ngerulmud,0,,,Majuro is the capital of Marshall Islands.
+634,20,multiple_choice,exercise,630,Which country's flag?,New Zealand|Marshall Islands|Australia,1,flags/mh.png,,This is the flag of Marshall Islands; its capital is Majuro.
+635,20,multiple_choice,exercise,630,Capital of Micronesia?,Majuro|Port Moresby|Palikir,2,,,Palikir is the capital of Micronesia.
+636,20,multiple_choice,exercise,630,Name this flag.,Micronesia|Kiribati|Tuvalu,0,flags/fm.png,,This is the flag of Micronesia; its capital is Palikir.
+637,20,true_false,preview,638,Canberra is a capital city.,,true,,,True. Canberra is the capital of Australia.
+638,20,multiple_choice,main,,Whose flag is this?,Nauru|Australia|Samoa,1,flags/au.png,,This is the flag of Australia; its capital is Canberra.
+639,20,multiple_choice,exercise,638,Capital of Australia?,Funafuti|Nuku'alofa|Canberra,2,,,Canberra is the capital of Australia.
+640,20,true_false,exercise,638,Port Moresby is the capital of Australia.,,false,,,False. The capital of Australia is Canberra.
+641,20,multiple_choice,exercise,638,Capital of New Zealand?,Wellington|Nuku'alofa|Funafuti,0,,,Wellington is the capital of New Zealand.
+642,20,multiple_choice,exercise,638,Which country's flag?,Samoa|New Zealand|Tuvalu,1,flags/nz.png,,This is the flag of New Zealand; its capital is Wellington.
+643,20,multiple_choice,exercise,638,Capital of Papua New Guinea?,Funafuti|Canberra|Port Moresby,2,,,Port Moresby is the capital of Papua New Guinea.
+644,20,multiple_choice,exercise,638,Name this flag.,Papua New Guinea|Tonga|New Zealand,0,flags/pg.png,,This is the flag of Papua New Guinea; its capital is Port Moresby.
+645,21,true_false,preview,646,Seas are parts of the ocean.,,true,,,"True. Examples: the Mediterranean Sea, Caribbean Sea, Red Sea and Black Sea."
+646,21,multiple_choice,main,,Which sea lies between Europe and Africa?,Red|Mediterranean|Black,1,,,"The Mediterranean Sea lies between Europe, Africa and Asia."
+647,21,true_false,exercise,646,The Caribbean Sea is near Cuba.,,true,,,True. It lies east of Central America.
+648,21,multiple_choice,exercise,646,Which sea separates Africa from Arabia?,Black Sea|North Sea|Red Sea,2,,,The Red Sea lies between Africa and the Arabian Peninsula.
+649,21,select_blank,exercise,646,The ___ Sea borders Ukraine and Turkey.,Black|Red|Baltic,0,,,The Black Sea is north of Turkey.
+650,21,multiple_choice,exercise,646,Which sea has the West Indies?,Baltic|Caribbean|Arabian,1,,,The Caribbean Sea holds many islands.
+651,21,true_false,exercise,646,The Red Sea is north of Europe.,,false,,,False. It is between Africa and Arabia.
+652,21,multiple_choice,exercise,646,The Mediterranean touches ___.,One continent|No land|Three continents,2,,,"It touches Europe, Africa and Asia."
+653,21,true_false,exercise,646,The Black Sea touches Turkey.,,true,,,True. Turkey is on its southern shore.
+654,21,select_blank,exercise,646,The ___ Sea lies north of Egypt.,Mediterranean|Black|Baltic,0,,,Egypt's north coast is on the Mediterranean.
+655,21,true_false,preview,656,Different seas border different regions.,,true,,,"True. The North Sea, Baltic Sea, Arabian Sea and South China Sea."
+656,21,multiple_choice,main,,Which sea lies between Britain and Norway?,Baltic Sea|North Sea|Black Sea,1,,,The North Sea lies east of Britain and west of Norway.
+657,21,multiple_choice,exercise,656,Sweden has a coast on the ___.,Red Sea|Black Sea|Baltic Sea,2,,,"The Baltic Sea borders Sweden, Poland and Finland."
+658,21,true_false,exercise,656,The Arabian Sea touches India.,,true,,,True. It lies off India's west coast.
+659,21,select_blank,exercise,656,The South China Sea touches ___.,Vietnam|Spain|Chile,0,,,"It borders Vietnam, China and the Philippines."
+660,21,multiple_choice,exercise,656,Which sea touches Poland?,Arabian|Baltic|Red,1,,,The Baltic Sea lies north of Poland.
+661,21,true_false,exercise,656,The North Sea is in Africa.,,false,,,False. It is in northwestern Europe.
+662,21,multiple_choice,exercise,656,Which sea lies off Oman?,North Sea|Baltic Sea|Arabian Sea,2,,,The Arabian Sea borders Oman and Pakistan.
+663,21,true_false,exercise,656,The Baltic Sea touches Finland.,,true,,,True. Finland is on its northern shore.
+664,21,select_blank,exercise,656,The ___ Sea is east of Vietnam.,South China|North|Baltic,0,,,Vietnam's east coast is on the South China Sea.
+665,21,true_false,preview,666,Canals and straits shorten journeys.,,true,,,"True. The Suez Canal, Panama Canal, Strait of Gibraltar and Bering Strait."
+666,21,multiple_choice,main,,The Suez Canal is in ___.,Panama|Egypt|Spain,1,,,The Suez Canal in Egypt joins the Mediterranean to the Red Sea.
+667,21,multiple_choice,exercise,666,Panama Canal links which oceans?,Red-Black|Baltic-North|Atlantic-Pacific,2,,,It links the Atlantic and Pacific oceans.
+668,21,true_false,exercise,666,Gibraltar separates Spain and Morocco.,,true,,,True. The strait links the Atlantic and Mediterranean.
+669,21,select_blank,exercise,666,The Bering Strait separates Russia and ___.,Alaska|Japan|India,0,,,Alaska lies across the strait.
+670,21,multiple_choice,exercise,666,Which links the Mediterranean to the Red Sea?,Panama Canal|Suez Canal|Bering Strait,1,,,Ships avoid sailing around Africa.
+671,21,true_false,exercise,666,The Panama Canal is in Egypt.,,false,,,False. It is in Panama.
+672,21,multiple_choice,exercise,666,The Bering Strait links the Arctic and ___.,Atlantic|Indian|Pacific,2,,,It lies between Russia and Alaska.
+673,21,true_false,exercise,666,Gibraltar links two seas.,,false,,,False. It links the Atlantic Ocean and the Mediterranean Sea.
+674,21,select_blank,exercise,666,The ___ Canal is in Central America.,Panama|Suez|Baltic,0,,,It crosses Panama.
+675,22,true_false,preview,676,Great rivers shape whole regions.,,true,,,"True. The Nile, Amazon, Yangtze and Mississippi."
+676,22,multiple_choice,main,,Which river flows north through Egypt?,Amazon|Nile|Yangtze,1,,,The Nile flows north through Egypt to the Mediterranean.
+677,22,multiple_choice,exercise,676,Which is the largest by water volume?,Nile|Mississippi|Amazon,2,,,The Amazon carries more water than any other river.
+678,22,true_false,exercise,676,The Yangtze is in China.,,true,,,True. It is Asia's longest river.
+679,22,select_blank,exercise,676,The Mississippi flows into the Gulf of ___.,Mexico|Aden|Bothnia,0,,,It ends in the Gulf of Mexico.
+680,22,multiple_choice,exercise,676,The Yangtze is the longest in ___.,Europe|Asia|Africa,1,,,It is Asia's longest river.
+681,22,true_false,exercise,676,The Amazon flows through Africa.,,false,,,False. It flows through South America.
+682,22,multiple_choice,exercise,676,Which river is in the United States?,Nile|Yangtze|Mississippi,2,,,The Mississippi crosses central United States.
+683,22,true_false,exercise,676,The Nile flows through Egypt.,,true,,,True. Most Egyptians live along it.
+684,22,select_blank,exercise,676,The Amazon is in ___ America.,South|North|Central,0,,,It flows mainly through Brazil.
+685,22,true_false,preview,686,Rivers link cities and countries.,,true,,,"True. The Danube, Rhine, Ganges and Mekong."
+686,22,multiple_choice,main,,Which river flows through Vienna and Budapest?,Rhine|Danube|Volga,1,,,The Danube flows through several European capitals into the Black Sea.
+687,22,multiple_choice,exercise,686,The Rhine flows through ___.,India|Brazil|Germany,2,,,The Rhine crosses Germany and the Netherlands.
+688,22,true_false,exercise,686,The Ganges is in India.,,true,,,True. It is sacred in Hinduism.
+689,22,select_blank,exercise,686,The Mekong flows through ___ Asia.,Southeast|West|Central,0,,,It crosses Southeast Asia to Vietnam.
+690,22,multiple_choice,exercise,686,The Ganges flows into the Bay of ___.,Biscay|Bengal|Fundy,1,,,It ends in the Bay of Bengal.
+691,22,true_false,exercise,686,The Danube ends in the Black Sea.,,true,,,True. Its delta lies in Romania and Ukraine.
+692,22,multiple_choice,exercise,686,The Mekong ends in ___.,Spain|Peru|Vietnam,2,,,Its delta is in southern Vietnam.
+693,22,true_false,exercise,686,The Rhine is in Asia.,,false,,,False. It is in Western Europe.
+694,22,select_blank,exercise,686,The Rhine flows to the ___ Sea.,North|Black|Red,0,,,It enters the North Sea in the Netherlands.
+695,22,true_false,preview,696,Rivers can be famous worldwide.,,true,,,"True. The Congo River, Volga, Indus and Murray River."
+696,22,multiple_choice,main,,The Congo River is in ___.,East Asia|Central Africa|South America,1,,,The Congo River flows through Central Africa to the Atlantic.
+697,22,true_false,exercise,696,The Volga is in Russia.,,true,,,True. It is Europe's longest river.
+698,22,multiple_choice,exercise,696,The Volga flows into the ___.,Black Sea|Baltic Sea|Caspian Sea,2,,,It ends in the Caspian Sea.
+699,22,select_blank,exercise,696,The Indus flows through ___.,Pakistan|Brazil|Germany,0,,,It runs through Pakistan to the Arabian Sea.
+700,22,multiple_choice,exercise,696,The Murray River is in ___.,Canada|Australia|Peru,1,,,It is Australia's longest river.
+701,22,true_false,exercise,696,The Indus is in Africa.,,false,,,False. It is in South Asia.
+702,22,multiple_choice,exercise,696,Which flows into the Atlantic?,Volga|Indus|Congo,2,,,The Congo ends in the Atlantic Ocean.
+703,22,true_false,exercise,696,The Murray River is in Australia.,,true,,,True. It flows through the southeast.
+704,22,select_blank,exercise,696,The Volga is Europe's ___ river.,longest|shortest|driest,0,,,It is Europe's longest river.
+705,22,true_false,preview,706,Some lakes are huge.,,true,,,"True. Lake Superior, Lake Victoria, Lake Baikal and the Caspian Sea."
+706,22,multiple_choice,main,,Which is the largest freshwater lake by area?,Victoria|Superior|Baikal,1,,,Lake Superior is the largest freshwater lake by surface area.
+707,22,multiple_choice,exercise,706,Lake Victoria is in ___.,Asia|Europe|Africa,2,,,It is Africa's largest lake.
+708,22,true_false,exercise,706,Lake Baikal is in Russia.,,true,,,True. It is the world's deepest lake.
+709,22,select_blank,exercise,706,Lake Baikal is the ___ lake.,deepest|shallowest|smallest,0,,,It is the deepest lake on Earth.
+710,22,multiple_choice,exercise,706,The Caspian Sea is a ___.,Ocean|Lake|River,1,,,It is the world's largest inland body of water.
+711,22,true_false,exercise,706,Lake Superior is in Africa.,,false,,,False. It is in North America.
+712,22,multiple_choice,exercise,706,"Lake Victoria touches Uganda, Kenya and ___.",Egypt|Ghana|Tanzania,2,,,The three countries share its shores.
+713,22,true_false,exercise,706,The Caspian Sea is landlocked.,,true,,,True. It has no outlet to the ocean.
+714,22,select_blank,exercise,706,Lake Superior is one of the Great ___.,Lakes|Seas|Rivers,0,,,It is one of five Great Lakes.
+715,22,true_false,preview,716,"Lakes can be high, long or shared.",,true,,,"True. Lake Titicaca, Lake Tanganyika, Lake Michigan and Lake Geneva."
+716,22,multiple_choice,main,,Lake Titicaca lies between Peru and ___.,Chile|Bolivia|Brazil,1,,,Lake Titicaca sits high in the Andes between Peru and Bolivia.
+717,22,multiple_choice,exercise,716,Lake Tanganyika is in ___.,Asia|Europe|Africa,2,,,It is the world's longest freshwater lake.
+718,22,true_false,exercise,716,Lake Michigan is entirely in the United States.,,true,,,True. It is the only Great Lake wholly in the US.
+719,22,select_blank,exercise,716,Lake Geneva is in Switzerland and ___.,France|Spain|Italy,0,,,It lies between Switzerland and France.
+720,22,multiple_choice,exercise,716,Which lake is in the Andes?,Geneva|Titicaca|Michigan,1,,,Lake Titicaca is high in the Andes.
+721,22,true_false,exercise,716,Lake Tanganyika is in Europe.,,false,,,False. It is in Africa.
+722,22,multiple_choice,exercise,716,Lake Michigan is in ___.,Asia|Europe|North America,2,,,It is one of the Great Lakes.
+723,22,true_false,exercise,716,Lake Geneva is in the Alps region.,,true,,,True. The Alps surround it.
+724,22,select_blank,exercise,716,Lake ___ is in the Andes.,Titicaca|Geneva|Michigan,0,,,Titicaca lies on the Peru-Bolivia border.
+725,23,true_false,preview,726,Great ranges divide continents.,,true,,,"True. The Himalayas, Andes, Alps and Rocky Mountains."
+726,23,multiple_choice,main,,Which range holds Mount Everest?,Andes|Himalayas|Alps,1,,,The Himalayas in Asia include Mount Everest.
+727,23,multiple_choice,exercise,726,The Andes are in ___.,Africa|Europe|South America,2,,,They run along the west coast of South America.
+728,23,true_false,exercise,726,The Alps are in Europe.,,true,,,True. They cross several countries.
+729,23,select_blank,exercise,726,The Rocky Mountains are in ___ America.,North|South|Central,0,,,They run through Canada and the United States.
+730,23,multiple_choice,exercise,726,Which is the longest range?,Alps|Andes|Rockies,1,,,The Andes are the longest continental range.
+731,23,true_false,exercise,726,The Himalayas are in Africa.,,false,,,False. They are in Asia.
+732,23,multiple_choice,exercise,726,Which range is in Switzerland?,Andes|Himalayas|Alps,2,,,Switzerland has much of the Alps.
+733,23,true_false,exercise,726,The Rockies are in Asia.,,false,,,False. They are in North America.
+734,23,select_blank,exercise,726,The ___ are the highest range.,Himalayas|Alps|Rockies,0,,,They hold Everest.
+735,23,true_false,preview,736,Each continent has a highest peak.,,true,,,"True. Mount Everest, Mount Kilimanjaro, Mont Blanc and Aconcagua."
+736,23,multiple_choice,main,,Which is the highest mountain on Earth?,Kilimanjaro|Everest|Mont Blanc,1,,,"Mount Everest, on the Nepal-China border, is the highest above sea level."
+737,23,multiple_choice,exercise,736,Kilimanjaro is in ___.,Peru|Nepal|Tanzania,2,,,It is Africa's highest peak.
+738,23,true_false,exercise,736,Mont Blanc is in the Alps.,,true,,,True. It is the highest peak in the Alps.
+739,23,select_blank,exercise,736,Aconcagua is in ___.,Argentina|Spain|India,0,,,It is the highest peak in the Americas.
+740,23,multiple_choice,exercise,736,Which is Africa's highest?,Everest|Kilimanjaro|Aconcagua,1,,,Mount Kilimanjaro is the highest mountain in Africa.
+741,23,true_false,exercise,736,Everest is in Europe.,,false,,,False. It is in Asia.
+742,23,multiple_choice,exercise,736,Aconcagua is in the ___.,Alps|Himalayas|Andes,2,,,It is in the Andes of Argentina.
+743,23,true_false,exercise,736,Kilimanjaro is in South America.,,false,,,False. It is in Tanzania.
+744,23,select_blank,exercise,736,Mont Blanc is on the France and ___ border.,Italy|Spain|Poland,0,,,It lies between France and Italy.
+745,23,true_false,preview,746,Deserts are defined by dryness.,,true,,,"True. The Sahara, Gobi Desert, Arabian Desert and Atacama Desert."
+746,23,multiple_choice,main,,Which is the largest hot desert?,Gobi|Sahara|Atacama,1,,,The Sahara in Africa is the largest hot desert.
+747,23,multiple_choice,exercise,746,The Gobi is in ___.,Egypt|Chile|Mongolia and China,2,,,The Gobi spans southern Mongolia and northern China.
+748,23,true_false,exercise,746,The Atacama is in Chile.,,true,,,True. It is one of the driest places on Earth.
+749,23,select_blank,exercise,746,The Arabian Desert is in ___.,Asia|Europe|Africa,0,,,It covers much of the Arabian Peninsula.
+750,23,multiple_choice,exercise,746,Which is the driest non-polar desert?,Sahara|Atacama|Gobi,1,,,The Atacama is extremely dry.
+751,23,true_false,exercise,746,The Sahara is in Asia.,,false,,,False. It is in Africa.
+752,23,multiple_choice,exercise,746,The Sahara covers much of ___ Africa.,South|East|North,2,,,It spans North Africa.
+753,23,true_false,exercise,746,The Gobi is in South America.,,false,,,False. It is in East Asia.
+754,23,select_blank,exercise,746,The ___ Desert is in Chile.,Atacama|Gobi|Sahara,0,,,It lies along Chile's north.
+755,23,true_false,preview,756,Some islands are enormous.,,true,,,"True. Greenland, Madagascar, Borneo and New Guinea."
+756,23,multiple_choice,main,,Which is the largest island?,Madagascar|Greenland|Borneo,1,,,Greenland is the world's largest island and is part of the Kingdom of Denmark.
+757,23,multiple_choice,exercise,756,Madagascar is off ___.,Asia|Australia|Africa,2,,,It lies off the east coast of Africa.
+758,23,true_false,exercise,756,Borneo is shared by three countries.,,true,,,"True. Indonesia, Malaysia and Brunei share it."
+759,23,multiple_choice,exercise,756,Which country shares New Guinea?,Papua New Guinea|Fiji|Japan,0,,,The island is split between those two countries.
+760,23,multiple_choice,exercise,756,Which is the second-largest island?,Borneo|New Guinea|Madagascar,1,,,New Guinea ranks second after Greenland.
+761,23,true_false,exercise,756,Greenland is a country on its own.,,false,,,False. It is an autonomous territory of Denmark.
+762,23,multiple_choice,exercise,756,Which island is shared by Brunei?,Madagascar|Greenland|Borneo,2,,,Brunei is on the island of Borneo.
+763,23,true_false,exercise,756,Madagascar is in the Indian Ocean.,,true,,,True. It lies off Africa's east coast.
+764,23,select_blank,exercise,756,Greenland is part of the Kingdom of ___.,Denmark|Norway|Canada,0,,,It is an autonomous territory of Denmark.
+765,23,true_false,preview,766,Physical features shape human geography.,,true,,,True. Review the key ideas.
+766,23,multiple_choice,main,,Which river flows north through Egypt?,Amazon|Nile|Danube,1,,,The Nile flows to the Mediterranean.
+767,23,multiple_choice,exercise,766,Which range holds Everest?,Alps|Andes|Himalayas,2,,,Everest is in the Himalayas.
+768,23,true_false,exercise,766,The Sahara is the largest hot desert.,,true,,,True. It spans North Africa.
+769,23,select_blank,exercise,766,The largest island is ___.,Greenland|Borneo|Madagascar,0,,,Greenland is the largest.
+770,23,multiple_choice,exercise,766,Which canal is in Panama?,Suez Canal|Panama Canal|Kiel Canal,1,,,It links the Atlantic and Pacific.
+771,23,true_false,exercise,766,Lake Baikal is the deepest lake.,,true,,,True. It is in Russia.
+772,23,multiple_choice,exercise,766,Which sea touches Poland?,Red Sea|Black Sea|Baltic Sea,2,,,The Baltic Sea lies north of Poland.
+773,1,multiple_choice,exam,,How many continents does this course count?,Seven|Six|Five,0,,,"Africa, Antarctica, Asia, Europe, North America, Oceania and South America."
+774,1,multiple_choice,exam,,The largest and deepest ocean is the:,Indian|Pacific|Atlantic,1,,,It is bigger than all the land combined.
+775,2,multiple_choice,exam,,The Equator splits Earth into two:,Continents|Oceans|Hemispheres,2,,,It is the line around Earth's middle.
+776,2,multiple_choice,exam,,The Prime Meridian passes through:,Greenwich|Paris|Cairo,0,,,It runs from pole to pole and divides East from West.
+777,2,multiple_choice,exam,,Latitude measures how far you are from the:,Coast|Equator|Prime Meridian,1,,,Longitude measures east-west position.
+778,2,multiple_choice,exam,,A landlocked country has no:,Capital city|Neighbour|Ocean coastline,2,,,Switzerland is an example.
+779,2,multiple_choice,exam,,A peninsula is land almost surrounded by:,Water|Mountains|Desert,0,,,Italy is one.
+780,2,multiple_choice,exam,,A strait is a narrow:,Valley|Waterway|Peninsula,1,,,It connects two larger bodies of water.
+781,3,multiple_choice,exam,,The capital of France is:,Lyon|Brussels|Paris,2,,,The Netherlands and Luxembourg are in the same region.
+782,3,multiple_choice,exam,,The capital of Austria is:,Vienna|Berlin|Prague,0,,,Liechtenstein and Monaco are neighbours in this region.
+783,4,multiple_choice,exam,,The capital of the United Kingdom is:,Oslo|London|Dublin,1,,,Norway and Sweden also belong to Northern Europe.
+784,4,multiple_choice,exam,,The capital of Finland is:,Riga|Stockholm|Helsinki,2,,,Latvia and Lithuania are nearby.
+785,5,multiple_choice,exam,,The capital of Spain is:,Madrid|Lisbon|Rome,0,,,Italy and Malta are in Southern Europe too.
+786,5,multiple_choice,exam,,The capital of Croatia is:,Athens|Zagreb|Skopje,1,,,Slovenia lies next to it.
+787,5,multiple_choice,exam,,The capital of North Macedonia is:,Zagreb|Belgrade|Skopje,2,,,Serbia is a neighbour.
+788,5,multiple_choice,exam,,The capital of Andorra is:,Andorra la Vella|Madrid|Tirana,0,,,Greece and Albania are in the same region group.
+789,6,multiple_choice,exam,,The capital of Poland is:,Sofia|Warsaw|Budapest,1,,,Hungary and Romania are close neighbours.
+790,6,multiple_choice,exam,,The capital of Bulgaria is:,Warsaw|Bucharest|Sofia,2,,,Moldova and Russia are in Eastern Europe.
+791,7,multiple_choice,exam,,The capital of the United States is:,"Washington, D.C.|New York|Mexico City",0,,,Mexico is also in North America.
+792,8,multiple_choice,exam,,The capital of Guatemala is:,Panama City|Guatemala City|Managua,1,,,Honduras and El Salvador are neighbours.
+793,8,multiple_choice,exam,,The capital of Nicaragua is:,Guatemala City|Havana|Managua,2,,,Panama lies further south.
+794,9,multiple_choice,exam,,The capital of Cuba is:,Havana|Bridgetown|Managua,0,,,The Dominican Republic and the Bahamas are other Caribbean countries.
+795,9,multiple_choice,exam,,The capital of Barbados is:,Managua|Bridgetown|Havana,1,,,Saint Lucia is nearby.
+796,10,multiple_choice,exam,,The capital of Brazil is:,Bogota|Asuncion|Brasilia,2,,,Chile and Peru are also in South America.
+797,10,multiple_choice,exam,,The capital of Colombia is:,Bogota|Brasilia|Managua,0,,,Ecuador and Bolivia are other Andean countries.
+798,10,multiple_choice,exam,,The capital of Paraguay is:,Brasilia|Asuncion|Bogota,1,,,Guyana and Suriname lie in the north.
+799,11,multiple_choice,exam,,The capital of China is:,Seoul|Ulaanbaatar|Beijing,2,,,North Korea and Mongolia are neighbours.
+800,12,multiple_choice,exam,,The capital of Indonesia is:,Jakarta|Hanoi|Bangkok,0,,,Vietnam and Thailand are on the mainland.
+801,12,multiple_choice,exam,,The capital of Laos is:,Jakarta|Vientiane|Hanoi,1,,,Timor-Leste is another Southeast Asian country.
+802,13,multiple_choice,exam,,The capital of India is:,Dhaka|Kathmandu|New Delhi,2,,,Bangladesh and Sri Lanka are nearby.
+803,13,multiple_choice,exam,,The capital of Nepal is:,Kathmandu|New Delhi|Dhaka,0,,,The Maldives and Afghanistan are also in South Asia.
+804,13,multiple_choice,exam,,The capital of Iran is:,Kathmandu|Tehran|Ashgabat,1,,,Uzbekistan lies to the northeast.
+805,14,multiple_choice,exam,,The capital of Turkey is:,Damascus|Tehran|Ankara,2,,,Azerbaijan and Cyprus are close.
+806,14,multiple_choice,exam,,The capital of Iraq is:,Baghdad|Damascus|Ankara,0,,,Yemen and Oman are in West Asia too.
+807,14,multiple_choice,exam,,The capital of Qatar is:,Damascus|Doha|Baghdad,1,,,Kuwait and Bahrain are nearby.
+808,15,multiple_choice,exam,,The capital of Egypt is:,Algiers|Tunis|Cairo,2,,,Tunisia is in North Africa too.
+809,15,multiple_choice,exam,,The capital of Algeria is:,Algiers|Cairo|Tunis,0,,,Sudan lies to the east.
+810,16,multiple_choice,exam,,The capital of Nigeria is:,Bissau|Abuja|Niamey,1,,,Senegal and Mali are in West Africa.
+811,16,multiple_choice,exam,,The capital of Niger is:,Abuja|Bissau|Niamey,2,,,Benin and Togo lie to the south.
+812,17,multiple_choice,exam,,The capital of Ethiopia is:,Addis Ababa|Harare|Cairo,0,,,Uganda and Rwanda are nearby.
+813,17,multiple_choice,exam,,The capital of Zimbabwe is:,Antananarivo|Harare|Addis Ababa,1,,,Zambia and Mozambique are neighbours.
+814,18,multiple_choice,exam,,The capital of Gabon is:,Kinshasa|Abuja|Libreville,2,,,Angola lies to the south.
+815,20,multiple_choice,exam,,The capital of Australia is:,Canberra|Sydney|Honiara,0,,,Papua New Guinea and Fiji are in Oceania too.
+816,20,multiple_choice,exam,,The capital of the Solomon Islands is:,Ngerulmud|Honiara|Canberra,1,,,Samoa and Tonga are other Pacific countries.
+817,21,multiple_choice,exam,,The Mediterranean lies between Europe and:,Australia|Antarctica|Africa,2,,,It also touches Asia.
+818,21,multiple_choice,exam,,The North Sea lies between Britain and:,Norway|Spain|Iceland,0,,,It is east of Britain.
+819,21,multiple_choice,exam,,The Suez Canal is in:,Panama|Egypt|Turkey,1,,,It joins the Mediterranean to the Red Sea.
+820,22,multiple_choice,exam,,The river that flows north through Egypt is the:,Danube|Congo|Nile,2,,,It reaches the Mediterranean.
+821,22,multiple_choice,exam,,The Danube flows through Vienna and:,Budapest|Cairo|Beijing,0,,,It runs into the Black Sea.
+822,22,multiple_choice,exam,,The largest freshwater lake by area is:,Victoria|Superior|Titicaca,1,,,It is Lake Superior.
+823,22,multiple_choice,exam,,The Andes lake shared by Peru and Bolivia is:,Superior|Victoria|Titicaca,2,,,It sits high in the Andes.
+824,23,multiple_choice,exam,,Mount Everest is in the:,Himalayas|Andes|Alps,0,,,It is the highest mountain on Earth.
+825,23,multiple_choice,exam,,The largest hot desert is the:,Arabian|Sahara|Gobi,1,,,It is in Africa.
+826,23,multiple_choice,exam,,The largest island is:,Madagascar|Australia|Greenland,2,,,It is part of the Kingdom of Denmark.
